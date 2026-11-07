@@ -1,25 +1,28 @@
 > **Experimental. We are just trying this.** [Disclaimer](../DISCLAIMER.md) · Kaspa Testnet-10 only. Counts only.
 >
-> Counted-rerun mini sheet. **The date is not locked. Do not start.** There is no sentence to wait for on the day itself.
+> Official Mini sheet. **The date is not locked. Do not start.** Tonight's test is [GO.md](../GO.md), not this file.
 
-# GO-MINI · mini · counted rerun · date not locked
+# GO-MINI · Mini · official count · date not locked
 
-You are the mini. You count on your own node. You do not send. You do not run genesis. You do not mine. You do not hold a key.
+You are Mini. You count on your own node. You do not send. You do not run genesis. You do not mine. You do not hold a key.
+
+Tonight's test is the one plan:
+
+https://github.com/STP-KAS/tn10-storm-2026-11-08/blob/main/GO.md
 
 | | UTC | CET |
 |---|---|---|
 | Date | **not locked** | |
-| Offered, not armed | Whenever the outside count picks. Tomorrow, Monday, Tuesday, or later. We do not choose it. | |
+| Offered, not armed | Whenever Pulse picks. Tomorrow, Monday, Tuesday, or later. We do not choose it. | |
 
-Until this table names a date, you refuse. Do not start a counter. Do not ask the operator to say genesis is in. That gate is retired.
+Until this table names a date, you refuse this sheet. Do not start a counter from this file. Do not ask the operator to say genesis is in. That gate is retired.
 
-When a date is in this file, you start two minutes before T0 and you stop two hours after T0. You start because the clock says so. A missing sentence is not a reason to stay off. The file clock is the accepting block's header time. Your local receive time is not that clock. A minute you did not read in full stays marked. You do not fill it. The score line of 1,026 hops per family does not stop you.
+When a date is in this file, you start two minutes before T0 and you stop two hours after T0, on the clock written that day. You start because the clock says so. The file clock is the accepting block's header time. Your local receive time is not that clock. A minute you did not read in full stays marked. You do not fill it. The score line of 1,026 hops per family does not stop you.
 
 ## What you refuse
 
-- Starting while the date is not locked.
+- Starting from this file while the date is not locked.
+- Using this file as a second arm for the 8 Nov test.
 - Waiting for a spoken word.
-- The 7 Nov mini sheet.
-- Tonight's test sheet, once 00:50 UTC on 8 Nov has passed.
 - Any send, any genesis, any miner, any key.
 - Pasting ids, keys, addresses, hosts or ports into chat.
