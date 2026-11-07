@@ -56,7 +56,7 @@ After those two pastes, the rest is automated. No spoken word. The mini does not
 
 **The official count is the same shape, on a date he picks.** Tomorrow, Monday, Tuesday, or a later week. We do not lock it. The sheets [go/GO-BUILD.md](go/GO-BUILD.md) and [go/GO-MINI.md](go/GO-MINI.md) refuse to start until that date is written into them.
 
-**Sixteen families** is a separate repo, [tn10-storm-plan-16](https://github.com/STP-KAS/tn10-storm-plan-16), for after this evening's test has ended. It is not part of tonight's test. It is armed by its own paste, under the same rule. It is not the official evening.
+**Sixteen families** is one repo, [tn10-storm-plan-family-curve](https://github.com/STP-KAS/tn10-storm-plan-family-curve), for after this evening's test has ended. It is not part of tonight's test. It is armed by its own paste, under the same rule. It is not the official evening.
 
 ## What this page is not
 

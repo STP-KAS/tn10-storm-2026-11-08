@@ -21,7 +21,7 @@ Tonight's pastes are [go/TEST-BUILD.md](go/TEST-BUILD.md) and [go/TEST-MINI.md](
 
 The official sheets are [go/GO-BUILD.md](go/GO-BUILD.md) and [go/GO-MINI.md](go/GO-MINI.md). They refuse every start until a date is written into them. We do not pick that date. The outside count does. Tomorrow, Monday, Tuesday, or a later week are all fine.
 
-The 16-family step is a separate repo, [tn10-storm-plan-16](https://github.com/STP-KAS/tn10-storm-plan-16). It runs only after tonight's test has ended, and only when its own paste arms it. It is not tonight's test and it is not the official evening.
+The 16-family step is one repo, [tn10-storm-plan-family-curve](https://github.com/STP-KAS/tn10-storm-plan-family-curve). It runs only after tonight's test has ended, and only when its own paste arms it. It is not tonight's test and it is not the official evening.
 
 The box is not part of either clock.
 
