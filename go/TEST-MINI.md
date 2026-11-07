@@ -4,8 +4,8 @@
 
 # TEST-MINI · moved
 
-The test has one plan:
+The Mini paste is:
 
-https://github.com/STP-KAS/tn10-storm-2026-11-08/blob/main/GO.md
+https://github.com/STP-KAS/tn10-storm-2026-11-08/blob/main/GO-MINI.md
 
-Mini reads that file and counts. Mini does not send. Do not start a counter from this page.
+The first sentence is: MINI. I count. I do not send. Do not start a counter from this page.

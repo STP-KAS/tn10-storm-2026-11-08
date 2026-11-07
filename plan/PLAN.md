@@ -1,10 +1,10 @@
 > **Experimental. We are just trying this.** [Disclaimer](../DISCLAIMER.md) · Kaspa Testnet-10 only.
 >
-> The run sheet is [GO.md](../GO.md). One link. This page is the shape. The official date is **not locked**. Pulse picks it. This page does not start that count.
+> The desk paste is [GO-DESK.md](../GO-DESK.md). The Mini paste is [GO-MINI.md](../GO-MINI.md). Same story. This page is the shape. The official date is **not locked**. Pulse picks it. This page does not start that count.
 
 # The test run
 
-Same opening shape as the window that did not run on 7 Nov. The why of that shape lives in [the 7 Nov why](https://github.com/STP-KAS/tn10-storm-2026-11-07/blob/main/WHY.md). The sixteen-family why lives in [the family-curve plan](https://github.com/STP-KAS/tn10-storm-plan-family-curve/blob/main/plan/PLAN.md). Both are in this one test. The clock is [GO.md](../GO.md).
+Same opening shape as the window that did not run on 7 Nov. The why of that shape lives in [the 7 Nov why](https://github.com/STP-KAS/tn10-storm-2026-11-07/blob/main/WHY.md). The sixteen-family why lives in [the family-curve plan](https://github.com/STP-KAS/tn10-storm-plan-family-curve/blob/main/plan/PLAN.md). Both are in this one test. The clock is in [GO-DESK.md](../GO-DESK.md) and [GO-MINI.md](../GO-MINI.md).
 
 ## Devices
 
@@ -22,7 +22,7 @@ Call the start **T0**: 8 Nov 2026, 00:40 UTC (01:40 CET).
 
 | Offset | What |
 |---|---|
-| T0 − 20 min | Desk and Mini are logged in. Each has read GO.md. Eight hashes are due before genesis |
+| T0 − 20 min | Desk and Mini are logged in. Desk has read GO-DESK.md. Mini has read GO-MINI.md. Eight hashes are due before genesis |
 | T0 − 5 min | Desk genesis. Eight families |
 | T0 − 2 min | Counts on. Desk and Mini. No word from the operator |
 | T0 | One family, 15 minutes, offer 1.2 |
@@ -45,11 +45,11 @@ The abort line stays 2,500 coins and 18,000 usable tKAS. Do not lower it. The fe
 
 ## What is automated
 
-Once desk and Mini are logged in and each has read [GO.md](../GO.md), the rest is the clock: the hash proofs, genesis, the sender, the counters, the load, the sixteen-family step, and the logs.
+Once desk and Mini are logged in, the desk has read [GO-DESK.md](../GO-DESK.md), and Mini has read [GO-MINI.md](../GO-MINI.md), the rest is the clock: the hash proofs, genesis, the sender, the counters, the load, the sixteen-family step, and the logs.
 
 The runner is a process. A Grok session that compacts is not a reason to start another one. The 7 Nov scheduled tasks are not the arm.
 
-By hand, and only this: boot desk, boot Mini, leave both logged in, and let each read GO.md before 00:20 UTC. The bot may read the same file. The run does not wait for the bot.
+By hand, and only this: boot desk, boot Mini, leave both logged in, paste GO-DESK.md on the desk and GO-MINI.md on Mini before 00:20 UTC. The first sentence names the machine. The bot may read either file. The run does not wait for the bot.
 
 ## What this test is not
 

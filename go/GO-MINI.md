@@ -1,14 +1,14 @@
 > **Experimental. We are just trying this.** [Disclaimer](../DISCLAIMER.md) · Kaspa Testnet-10 only. Counts only.
 >
-> Official Mini sheet. **The date is not locked. Do not start.** Tonight's test is [GO.md](../GO.md), not this file.
+> Official Mini sheet. **The date is not locked. Do not start.** Tonight's Mini paste is [GO-MINI.md](../GO-MINI.md), not this file. The root file is the test. This file is the later count.
 
 # GO-MINI · Mini · official count · date not locked
 
 You are Mini. You count on your own node. You do not send. You do not run genesis. You do not mine. You do not hold a key.
 
-Tonight's test is the one plan:
+Tonight's Mini paste is:
 
-https://github.com/STP-KAS/tn10-storm-2026-11-08/blob/main/GO.md
+https://github.com/STP-KAS/tn10-storm-2026-11-08/blob/main/GO-MINI.md
 
 | | UTC | CET |
 |---|---|---|

@@ -48,15 +48,15 @@ Shared burden. STP acknowledges the rest of it. It is unlikely this was a failur
 
 The 7 Nov lesson stays. A scheduled task is not an arm. `git` is called by its full path. A `git` error is logged as a `git` error, not as zero hashes. The hash file is proved by the runner before the first submit. No file, no send. Mini does not wait for "genesis is in". A late start is not used to fill a missed window. The plan is not changed while a calculation is still running.
 
-For this test the operator set one plan. It is [GO.md](GO.md). The human boots desk and Mini and leaves both logged in. Each machine reads that one file before 00:20 UTC. After that read the clock runs the rest. There is no second sheet. The rule is in [tn-master LESSONS](https://github.com/STP-KAS/tn-master/blob/main/docs/LESSONS.md).
+For this test the operator set one story and two pastes. The desk paste is [GO-DESK.md](GO-DESK.md). The Mini paste is [GO-MINI.md](GO-MINI.md). Each file carries the whole story, and the first sentence names the machine. The human boots desk and Mini and leaves both logged in. Each machine reads its own file before 00:20 UTC. After that read the clock runs the rest. The rule is in [tn-master LESSONS](https://github.com/STP-KAS/tn-master/blob/main/docs/LESSONS.md).
 
 ## This test, and the official count
 
-**This test is the 7 Nov shape, the 32-family load, and the sixteen-family step, on one clock.** Start 8 Nov 2026, 00:40 UTC (01:40 CET). Desk sends. Desk and Mini both count. Bot reads the same plan, watches, and does not send. The sixteen-family step is 04:15–04:30 UTC, only if the earlier part finished clean. The plan is [GO.md](GO.md). This test is how we know the next official count can run. It is not that official count. Pulse is not on this one.
+**This test is the 7 Nov shape, the 32-family load, and the sixteen-family step, on one clock.** Start 8 Nov 2026, 00:40 UTC (01:40 CET). Desk sends. Desk and Mini both count. Bot reads the same plan, watches, and does not send. The sixteen-family step is 04:15–04:30 UTC, only if the earlier part finished clean. The pastes are [GO-DESK.md](GO-DESK.md) and [GO-MINI.md](GO-MINI.md). This test is how we know the next official count can run. It is not that official count. Pulse is not on this one.
 
 **The official count is the 7 Nov shape, on a date Pulse picks.** Tomorrow, Monday, Tuesday, or a later week. We do not lock it. The sheets [go/GO-BUILD.md](go/GO-BUILD.md) and [go/GO-MINI.md](go/GO-MINI.md) refuse to start until that date is written into them.
 
-**Sixteen families** stay explained in [tn10-storm-plan-family-curve](https://github.com/STP-KAS/tn10-storm-plan-family-curve). For this test that step is inside [GO.md](GO.md). Do not paste the family-curve sheets. Turn 43b, Mini sending, has no date and is not this test.
+**Sixteen families** stay explained in [tn10-storm-plan-family-curve](https://github.com/STP-KAS/tn10-storm-plan-family-curve). For this test that step is inside both pastes. Do not paste the family-curve sheets. Turn 43b, Mini sending, has no date and is not this test.
 
 ## What this page is not
 

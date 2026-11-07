@@ -10,4 +10,4 @@
 | THIRTYTWO.md | before 02:55 UTC | the 32-family load |
 | SIXTEEN.md | before 04:15 UTC | the sixteen-family step |
 
-Each row is a sha256 of a lowercase hex covenant id. The id stays off this repo. The plan is [GO.md](../GO.md). No file, no send.
+Each row is a sha256 of a lowercase hex covenant id. The id stays off this repo. The desk paste is [GO-DESK.md](../GO-DESK.md). No file, no send.

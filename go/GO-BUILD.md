@@ -1,12 +1,12 @@
 > **Experimental. We are just trying this.** [Disclaimer](../DISCLAIMER.md) · Kaspa Testnet-10 only.
 >
-> Official desk sheet. **The date is not locked. Do not start.** Tonight's test is [GO.md](../GO.md), not this file.
+> Official desk sheet. **The date is not locked. Do not start.** Tonight's desk paste is [GO-DESK.md](../GO-DESK.md), not this file.
 
 # GO-BUILD · desk · official count · date not locked
 
-You are the desk. On the day this table names a date, you will be the only sender. You do not start tonight. You do not start on 7 Nov. Tonight's test, including the sixteen-family step, is the one plan:
+You are the desk. On the day this table names a date, you will be the only sender. You do not start tonight. You do not start on 7 Nov. Tonight's desk paste, including the sixteen-family step, is:
 
-https://github.com/STP-KAS/tn10-storm-2026-11-08/blob/main/GO.md
+https://github.com/STP-KAS/tn10-storm-2026-11-08/blob/main/GO-DESK.md
 
 | | UTC | CET |
 |---|---|---|
