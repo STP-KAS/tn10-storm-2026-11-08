@@ -40,26 +40,24 @@ Five things, each one enough to matter. Together they made a blank evening.
 
 The shape of the test was not the failure. The same shape had already been run on 5 Nov and 6 Nov. The failure was the start: a guard that could not see, a counter that waited for a voice, and nobody looking at the minute the guard fired.
 
+## What STP adds
+
+Shared burden. STP acknowledges the rest of it. It is unlikely this was a failure of the model by itself. The root was the prompting: bad instructions, the outcome not read at the minute it happened, and plans changed while a calculation was still running. That interruption confuses the work, and it is something the operator is going to work on. The lesson is his. The times in the table above stay the record of what the logs showed.
+
 ## What we will do
 
-Two pastes, and nothing else by hand.
+Arming is manual, every time, until further notice. The rule is in [tn-master LESSONS](https://github.com/STP-KAS/tn-master/blob/main/docs/LESSONS.md). The operator pastes the desk sheet. The operator pastes the mini sheet. A task does not arm a test. A clock does not arm a test.
 
-- One paste into the desk session. One paste into the mini. Those two pastes arm the two machines. They do not start a sender. The clock does.
-- No spoken word. The mini does not wait for "genesis is in". If the families are not in, the desk has failed its own clock, and the log says so. The mini still starts at its clock.
-- Every script a task runs uses the full path to `git`. It logs the command's own output, the error text included. A `git` error is written as a `git` error. It is not written as "zero hashes".
-- Before the send clock, that same script must already have logged the hash count from the task, not from an open session. If that proof is not in the log, the sender does not start.
-- The arm minute is watched. A refusal is seen at that minute.
-- The box stays out. It has no sample and no task.
-- A late start is not used to fill a missed window.
+After those two pastes, the rest is automated. No spoken word. The mini does not wait for "genesis is in". `git` is called by its full path. A `git` error is logged as a `git` error, not as zero hashes. The hash file is proved before the first submit. No file, no send. The box stays out. A late start is not used to fill a missed window.
 
-## Tonight, and the counted rerun
+## This evening, and the official count
 
-**Tonight, 8 Nov 2026, 00:40–00:50 UTC (01:40–01:50 CET), is a test of the start.** No genesis. No submit. No storm. The desk runs the hash check the way the task runs it, against the eight hashes already on the 7 Nov repo, and logs the count and any `git` error. The mini turns a counter on at 00:40 and off at 00:50, on the clock, with no word from the operator. An empty count is a pass. It means the counter started. The pastes are [go/TEST-BUILD.md](go/TEST-BUILD.md) and [go/TEST-MINI.md](go/TEST-MINI.md).
+**This evening is a full test of the 7 Nov shape.** Start 8 Nov 2026, 00:40 UTC (01:40 CET). Desk sends. Desk and mini both count. Steps of 1, then 2, then 4, then 8 families, then the ramp, then the 32-family load. Offer 1.2. The pastes are [go/TEST-BUILD.md](go/TEST-BUILD.md) and [go/TEST-MINI.md](go/TEST-MINI.md). This test is how we know the next official count can run. It is not that official count. The outside count is not on this one.
 
-**The counted rerun is the 7 Nov shape, on a later clock.** Same steps, same 1.2 offer, same 1.14 line, desk sends, mini counts, then one 32-family load. The sheets are [go/GO-BUILD.md](go/GO-BUILD.md) and [go/GO-MINI.md](go/GO-MINI.md). They refuse to start until a date is written into them. The date we can offer is Sunday 8 Nov 2026, 19:00–21:00 UTC, load 21:15–22:00 UTC. We do not lock that date here. The outside count says whether that evening is the one. Another evening is fine. We do not claim a result from 7 Nov, and we do not claim a result from tonight's empty test.
+**The official count is the same shape, on a date he picks.** Tomorrow, Monday, Tuesday, or a later week. We do not lock it. The sheets [go/GO-BUILD.md](go/GO-BUILD.md) and [go/GO-MINI.md](go/GO-MINI.md) refuse to start until that date is written into them.
 
-The 16-family turn that had been named for Sunday 18:15 UTC is stood down. It does not share Sunday with this repair. It stays a later question, with no date. [Family curve](https://github.com/STP-KAS/tn10-storm-plan-family-curve).
+**Sixteen families** is a separate repo, [tn10-storm-plan-16](https://github.com/STP-KAS/tn10-storm-plan-16), for after this evening's test has ended. It is not part of tonight's test. It is armed by its own paste, under the same rule. It is not the official evening.
 
 ## What this page is not
 
-It is not a measurement of hops. It is not a fee result. It is not a mainnet claim. tKAS has no value. Label **A** for the times in the table above. Those lines are from the desk logs of 7 Nov. Label **C** for the offer of Sunday evening. That is a proposal.
+It is not a fee result. It is not a mainnet claim. tKAS has no value. Label **A** for the times in the table above. Those lines are from the desk logs of 7 Nov. Tonight's test is a later measurement, written after it runs. We do not claim a result from 7 Nov.

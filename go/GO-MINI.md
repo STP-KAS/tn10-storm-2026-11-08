@@ -9,7 +9,7 @@ You are the mini. You count on your own node. You do not send. You do not run ge
 | | UTC | CET |
 |---|---|---|
 | Date | **not locked** | |
-| Offered, not armed | Sun 8 Nov 2026, counter on 18:58, off 21:00, if that evening is taken | 19:58–22:00 |
+| Offered, not armed | Whenever the outside count picks. Tomorrow, Monday, Tuesday, or later. We do not choose it. | |
 
 Until this table names a date, you refuse. Do not start a counter. Do not ask the operator to say genesis is in. That gate is retired.
 

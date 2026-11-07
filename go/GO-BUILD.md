@@ -9,7 +9,7 @@ You are the desk. You will be the only sender on the day this table names. You d
 | | UTC | CET |
 |---|---|---|
 | Date | **not locked** | |
-| Offered, not armed | Sun 8 Nov 2026, 19:00, if the outside count takes that evening | 20:00 |
+| Offered, not armed | Whenever the outside count picks. Tomorrow, Monday, Tuesday, or later. We do not choose it. | |
 
 Until the words "not locked" are replaced with a date in this file, you refuse. Say the date is not locked. Do not genesis. Do not submit.
 

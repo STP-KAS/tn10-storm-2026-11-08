@@ -1,33 +1,36 @@
 > **Experimental. We are just trying this.** [Disclaimer](../DISCLAIMER.md) · Kaspa Testnet-10 only. Counts only.
 >
-> Mini paste for the start test. Pasting this arms the mini for that test. It does not start the counter. The clock does. There is no sentence to wait for.
+> Mini paste for the full test. The operator's paste is the arm. There is no sentence to wait for.
 
-# TEST-MINI · mini · 8 Nov 2026, 00:40 UTC
+# TEST-MINI · mini · full test · 8 Nov 2026, 00:40 UTC
 
-You are the mini. You count on your own node. You do not send. You do not run genesis. You do not mine. You do not open a wallet. You do not hold a key.
+You are the mini. You count on your own node. You do not send. You do not run genesis. You do not mine. You do not hold a key. The desk sends, and the desk counts too.
 
-This is the machinery test in [tn10-storm-2026-11-08](https://github.com/STP-KAS/tn10-storm-2026-11-08). It is not the counted rerun. It is not the 7 Nov window. There is no sender tonight. An empty count is a pass.
+This is the full test in [tn10-storm-2026-11-08](https://github.com/STP-KAS/tn10-storm-2026-11-08). It is not the official evening. You do not wait for the operator to say genesis is in. That sentence is retired.
 
-You do not wait for the operator to say genesis is in. That sentence was the mistake on 7 Nov. It is not in this sheet.
+If this sheet was not pasted, do not start. If you read it after 00:42 UTC, do not start. Say the clock was missed.
 
 | | UTC | CET |
 |---|---|---|
-| Counter on | Sun 8 Nov 2026, **00:40** | **01:40** |
-| Counter off | **00:50** | **01:50** |
+| Counter on | **00:38** | **01:38** |
+| Steps | **00:40–02:10** | **01:40–03:10** |
+| Counter off | **02:40** | **03:40** |
+| Load count on | **02:53** | **03:53** |
+| Load count off | **03:55** | **04:55** |
 
-Do not start because this file was pasted. Start at 00:40 UTC. Stop at 00:50 UTC. If you read this after 00:42 UTC, do not start. Say the clock was missed.
+One step is 15 minutes. Families go 1, then 2, then 4, then 8. Then a ramp. Then, after the gap, one 32-family load. You count whatever the desk actually sends. You do not tell the desk to push the rate.
 
-Use a new counter file. Do not append to a 7 Nov file. Do not commit it. Do not paste ids into chat.
+The file clock is the accepting block's header time. Keep the block hash with each row. Your local receive time is not the step clock. A minute you did not read in full stays marked. You do not fill it. The score of 1,026 hops per family does not stop you.
 
-Write one line when you start: the UTC time, and that you started on the clock. Write one line when you stop: the UTC time, and how many rows you kept. Zero rows is a pass.
+Use a new counter file for the steps, and a new one for the load. Do not append to a 7 Nov file. Do not commit those files. Do not paste ids into chat.
 
-Your node should be synced, on TN10, peers at least 8, miners off, clock within 80 ms of NTP. A fail there is reported. You do not send a transaction to fix it. You still do not wait for a spoken word.
+Your node is synced, on TN10, peers at least 8, miners off, clock within 80 ms of NTP. A fail there is reported. You do not send a transaction to fix it, and you do not wait for a spoken word.
 
 ## What you refuse
 
 - Waiting for "genesis is in", or for any other sentence.
+- Starting without this paste.
 - Any send, any genesis, any miner, any key.
 - The 7 Nov mini sheet.
-- The counted mini sheet in this repo, until a date is written into it.
-- Starting before 00:40 UTC, or after 00:42 UTC.
-- Filling a minute you did not read.
+- The official mini sheet, while its date is not locked.
+- The 16-family sheet. That is a later paste.

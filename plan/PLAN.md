@@ -1,6 +1,8 @@
 > **Experimental. We are just trying this.** [Disclaimer](../DISCLAIMER.md) · Kaspa Testnet-10 only.
 >
-> The counted date is **not locked**. Sunday 8 Nov 2026, 19:00 UTC, is an offer. These sheets do not start it.
+> The official date is **not locked**. The outside count picks it. Tomorrow, Monday, Tuesday, or later. These sheets do not start it.
+>
+> This evening, 8 Nov 2026, 00:40 UTC, is a full test of this shape. Desk sends. Desk and mini both count. It is not the official evening. The pastes are [TEST-BUILD](../go/TEST-BUILD.md) and [TEST-MINI](../go/TEST-MINI.md). Arming is manual.
 
 # The rerun
 
@@ -34,6 +36,6 @@ Automated, once the two pastes are in and the date is in the sheets: the hash pr
 
 By hand, and only this: the operator pastes [GO-BUILD](../go/GO-BUILD.md) into the desk session, and [GO-MINI](../go/GO-MINI.md) into the mini. Two pastes. No third sentence. No "genesis is in".
 
-## Tonight is not this plan
+## This evening is a full test, not the official count
 
-Tonight's 00:40 UTC test is in [WHAT-WENT-WRONG.md](../WHAT-WENT-WRONG.md). It does not genesis and it does not submit. A pass tonight means the check can see the hashes from the task, and the mini can start on a clock. It does not mean the rerun has been run.
+This evening runs this shape, armed by the two pastes. The official count is the same shape on the date the outside count picks. A result this evening is a test result. It is not his count.

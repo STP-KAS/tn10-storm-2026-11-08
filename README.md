@@ -14,12 +14,14 @@ The failed window is [tn10-storm-2026-11-07](https://github.com/STP-KAS/tn10-sto
 
 | | What it is | UTC | CET |
 |---|---|---|---|
-| **Tonight's test** | The start only. No submit. | Sun 8 Nov 2026, **00:40–00:50** | **01:40–01:50** |
-| **Counted rerun** | The 7 Nov shape. Date not locked. | Offered: Sun 8 Nov, **19:00–21:00**, load **21:15–22:00** | **20:00–22:00**, load **22:15–23:00** |
+| **Tonight's test** | The full 7 Nov shape. Desk sends. Desk and mini both count. Not the official evening. | Sun 8 Nov 2026, start **00:40** | **01:40** |
+| **Official count** | The same shape again. Date not locked. | Whenever the outside count picks. Tomorrow, Monday, Tuesday, or later. | His choice |
 
-Tonight's pastes are [go/TEST-BUILD.md](go/TEST-BUILD.md) and [go/TEST-MINI.md](go/TEST-MINI.md). Pasting arms that machine. Pasting does not start a sender. The clock does. There is no sentence to wait for.
+Tonight's pastes are [go/TEST-BUILD.md](go/TEST-BUILD.md) and [go/TEST-MINI.md](go/TEST-MINI.md). The operator pastes them. That paste is the arm. A clock does not arm the test. There is no sentence to wait for. The [arming rule](https://github.com/STP-KAS/tn-master/blob/main/docs/LESSONS.md) is locked until further notice.
 
-The counted sheets are [go/GO-BUILD.md](go/GO-BUILD.md) and [go/GO-MINI.md](go/GO-MINI.md). They refuse every start until a date is written into them. Sunday evening is an offer. The outside count decides whether that is the evening. We do not start it because the date has arrived.
+The official sheets are [go/GO-BUILD.md](go/GO-BUILD.md) and [go/GO-MINI.md](go/GO-MINI.md). They refuse every start until a date is written into them. We do not pick that date. The outside count does. Tomorrow, Monday, Tuesday, or a later week are all fine.
+
+The 16-family step is a separate repo, [tn10-storm-plan-16](https://github.com/STP-KAS/tn10-storm-plan-16). It runs only after tonight's test has ended, and only when its own paste arms it. It is not tonight's test and it is not the official evening.
 
 The box is not part of either clock.
 
@@ -33,8 +35,8 @@ One desk sender. Steps of 15 minutes at 1 family, then 2, then 4, then 8 if 4 he
 |---|---|
 | [WHAT-WENT-WRONG.md](WHAT-WENT-WRONG.md) | The 7 Nov miss, in order, and the fix |
 | [plan/PLAN.md](plan/PLAN.md) | The rerun shape. Date not locked |
-| [go/TEST-BUILD.md](go/TEST-BUILD.md) | Desk paste for tonight's start test |
-| [go/TEST-MINI.md](go/TEST-MINI.md) | Mini paste for tonight's start test |
+| [go/TEST-BUILD.md](go/TEST-BUILD.md) | Desk paste for tonight's full test. The paste is the arm |
+| [go/TEST-MINI.md](go/TEST-MINI.md) | Mini paste for tonight's full test. The paste is the arm |
 | [go/GO-BUILD.md](go/GO-BUILD.md) | Desk paste for the counted rerun. Refuses an unlocked date |
 | [go/GO-MINI.md](go/GO-MINI.md) | Mini paste for the counted rerun. Refuses an unlocked date |
 
