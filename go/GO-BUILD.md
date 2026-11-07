@@ -1,27 +1,13 @@
 > **Experimental. We are just trying this.** [Disclaimer](../DISCLAIMER.md) · Kaspa Testnet-10 only.
 >
-> Official desk sheet. **The date is not locked. Do not start.** Tonight's desk paste is [GO-DESK.md](../GO-DESK.md), not this file.
+> **Closed. Do not paste this file.**
 
-# GO-BUILD · desk · official count · date not locked
+# GO-BUILD · closed
 
-You are the desk. On the day this table names a date, you will be the only sender. You do not start tonight. You do not start on 7 Nov. Tonight's desk paste, including the sixteen-family step, is:
+The desk paste for this rehearsal is:
 
 https://github.com/STP-KAS/tn10-storm-2026-11-08/blob/main/GO-DESK.md
 
-| | UTC | CET |
-|---|---|---|
-| Date | **not locked** | |
-| Offered, not armed | Whenever Pulse picks. Tomorrow, Monday, Tuesday, or later. We do not choose it. | |
+The first sentence is: DESK. I send and I count.
 
-Until the words "not locked" are replaced with a date in this file, you refuse this sheet. Say the date is not locked. Do not genesis from this file. Do not submit from this file.
-
-When a date is in this file, the shape is [plan/PLAN.md](../plan/PLAN.md) without inventing a clock of your own. Hashes are on this repo before the first submit, proved by the runner's own log. The git error is logged. No proof, no send. Mini counts. Bot watches and does not send. The fee stays. The abort line stays 2,500 coins and 18,000 usable tKAS.
-
-## What you refuse
-
-- A start from this file while the table says "not locked".
-- Using this file as a second arm for the 8 Nov test.
-- A second sender, including the bot machine.
-- A spoken "genesis is in" as a gate.
-- Hiding a git error, or calling that error zero hashes.
-- Publishing an id, a txid, a key, a seed, an address, a host, or a port.
+This file does not start a sender. This repo does not hold a later date. When Pulse names a date, that counted storm is a new repo.

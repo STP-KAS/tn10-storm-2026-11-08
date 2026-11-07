@@ -1,10 +1,10 @@
 > **Experimental. We are just trying this.** [Disclaimer](../DISCLAIMER.md) · Kaspa Testnet-10 only.
 >
-> The desk paste is [GO-DESK.md](../GO-DESK.md). The Mini paste is [GO-MINI.md](../GO-MINI.md). Same story. This page is the shape. The official date is **not locked**. Pulse picks it. This page does not start that count.
+> The desk paste is [GO-DESK.md](../GO-DESK.md). The Mini paste is [GO-MINI.md](../GO-MINI.md). Same story. This page is the shape of the rehearsal. This page does not start a machine. The counted storm, when Pulse names a date, is a new repo.
 
 # The test run
 
-Same opening shape as the window that did not run on 7 Nov. The why of that shape lives in [the 7 Nov why](https://github.com/STP-KAS/tn10-storm-2026-11-07/blob/main/WHY.md). The sixteen-family why lives in [the family-curve plan](https://github.com/STP-KAS/tn10-storm-plan-family-curve/blob/main/plan/PLAN.md). Both are in this one test. The clock is in [GO-DESK.md](../GO-DESK.md) and [GO-MINI.md](../GO-MINI.md).
+Same opening shape as the window that did not run on 7 Nov. The why of that shape lives in [WHY.md](../WHY.md) and in [the 7 Nov why](https://github.com/STP-KAS/tn10-storm-2026-11-07/blob/main/WHY.md). The sixteen-family why lives in [SIXTEEN.md](SIXTEEN.md), in this repo. The clock is in [GO-DESK.md](../GO-DESK.md) and [GO-MINI.md](../GO-MINI.md).
 
 ## Devices
 
@@ -51,8 +51,8 @@ The runner is a process. A Grok session that compacts is not a reason to start a
 
 By hand, and only this: boot desk, boot Mini, leave both logged in, paste GO-DESK.md on the desk and GO-MINI.md on Mini before 00:20 UTC. The first sentence names the machine. The bot may read either file. The run does not wait for the bot.
 
-## What this test is not
+## What this rehearsal is not
 
-It is not the official count. Pulse picks that date. [go/GO-BUILD.md](../go/GO-BUILD.md) and [go/GO-MINI.md](../go/GO-MINI.md) refuse until the date is in them.
+It is not the counted storm. When both machines have reported and Pulse names a date, that storm is a new repo. [go/GO-BUILD.md](../go/GO-BUILD.md) and [go/GO-MINI.md](../go/GO-MINI.md) are closed names.
 
-It is not turn 43b. 43b is Mini sending the same sixteen, later, with no date. If 43a does not finish clean, 43b does not run.
+It is not Mini sending. That later question has no date. If the sixteen-family step does not finish clean, that question does not run.

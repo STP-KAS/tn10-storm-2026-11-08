@@ -1,18 +1,18 @@
 > **Experimental. We are just trying this.** [Disclaimer](DISCLAIMER.md) · Kaspa Testnet-10 only; tKAS has no value. Mainnet: **not tested (label B)**.
 >
-> **We are sorry. The 7 Nov window did not run.** No genesis, no sends, no mini count, no 32-family load. This is a shared miss. The plan was clear. The start was not.
->
-> **We do not claim a result from that window.** The pre-tests of 5 Nov and 6 Nov still stand. They are not the 7 Nov window.
+> **Part of [tn-master](https://github.com/STP-KAS/tn-master)**, the map of every TN10 storm. Named by the [11 Oct naming rule](https://github.com/STP-KAS/tn-master/blob/main/repos/INDEX.md): `tn10-storm-YYYY-MM-DD`.
 
-# tn10-storm-2026-11-08
+# tn10-storm-2026-11-08 · rehearsal · Sun 8 Nov, 00:40 UTC (01:40 CET)
 
-Part of the [tn-master](https://github.com/STP-KAS/tn-master) map. Named by the [11 Oct naming rule](https://github.com/STP-KAS/tn-master/blob/main/repos/INDEX.md).
+**History of every storm: [MASTER.md](https://github.com/STP-KAS/tn-master/blob/main/history/MASTER.md)** (in tn-master).
 
-The failed window is [tn10-storm-2026-11-07](https://github.com/STP-KAS/tn10-storm-2026-11-07). What went wrong is [WHAT-WENT-WRONG.md](WHAT-WENT-WRONG.md). Read that with the plan.
+**Previous storm:** [tn10-storm-2026-11-07](https://github.com/STP-KAS/tn10-storm-2026-11-07). That window did not run. The record is [WHAT-WENT-WRONG.md](WHAT-WENT-WRONG.md).
 
-## Two pastes, one story
+**This repo is the rehearsal. It stands on its own.** The 7 Nov shape, the 32-family load, and the sixteen-family step are all in this repo. When the desk and Mini have both reported, and Pulse has named a date, the counted storm is a **new** repo, `tn10-storm-YYYY-MM-DD`. That date is not written here.
 
-The map is [GO.md](GO.md). It does not start a machine.
+## The two pastes
+
+One story. One file for each computer. Paste the file that names the machine in front of you. The first sentence must be that machine. If it names the other one, stop and paste the other file.
 
 | Machine | Paste | First sentence |
 |---|---|---|
@@ -23,33 +23,58 @@ https://github.com/STP-KAS/tn10-storm-2026-11-08/blob/main/GO-DESK.md
 
 https://github.com/STP-KAS/tn10-storm-2026-11-08/blob/main/GO-MINI.md
 
-Each file is the whole test. The session is the machine named in the file, because that file was pasted there. Grok Build does not guess from its own name.
+Each file is the whole rehearsal. Grok Build does not guess the machine from its own name. The pasted file is the machine. [GO.md](GO.md) is the map. It does not start a session. Bot may read either file. Bot watches and does not send. The rehearsal does not wait for bot.
 
-This is a test, before Pulse gives the clear date. It is the 7 Nov shape, then the 32-family load, then the sixteen-family step, on one clock. Start **00:40 UTC (01:40 CET)**. The sixteen-family step is **04:15–04:30 UTC (05:15–05:30 CET)**, and only if the earlier part finished clean.
+From this night on, that is the rule. One go plan for the desk. One go plan for Mini. Each one carries the whole story. [LESSONS](https://github.com/STP-KAS/tn-master/blob/main/docs/LESSONS.md).
 
-The human boots desk and Mini and leaves both logged in. Before 00:20 UTC the desk reads GO-DESK.md and Mini reads GO-MINI.md. After that the clock runs the rest. Bot may read either file, watches, and does not send.
+## Start, end
 
-The official count is the same 7 Nov shape on a date Pulse picks. Tomorrow, Monday, Tuesday, or later. We do not choose it. [go/GO-BUILD.md](go/GO-BUILD.md) and [go/GO-MINI.md](go/GO-MINI.md) stay closed until that date is written in.
+Times are UTC first. Desk local is CET (UTC+1).
 
-## The shape
+| | UTC | CET |
+|---|---|---|
+| Both machines have read their paste | **00:20** | **01:20** |
+| Genesis, eight families | 00:35 | 01:35 |
+| Counts on | 00:38 | 01:38 |
+| **START (T0)** | **00:40** | **01:40** |
+| First sends finished | 02:10 | 03:10 |
+| First count off | 02:40 | 03:40 |
+| 32-family load | 02:55–03:40 | 03:55–04:40 |
+| Load count off | 03:55 | 04:55 |
+| Sixteen families, if the earlier part finished clean | **04:15–04:30** | **05:15–05:30** |
+| Sixteen-family count off | 04:45 | 05:45 |
 
-One desk sender. Steps of 15 minutes at 1 family, then 2, then 4, then 8 if 4 held the line, with 5-minute gaps. Then a 10-minute ramp. Offer 1.2 hop/s per family. Line 1.14, which is 1,026 hops per family over 900 seconds. Sends of that shape finish 90 minutes after the start. Mini counts from 2 minutes before the start until 30 minutes after those sends finish. One 32-family load follows, 45 minutes. Then one 16-family step, 15 minutes, which is turn 43a of the [family-curve plan](https://github.com/STP-KAS/tn10-storm-plan-family-curve). Turn 43b, Mini sending, has no date and is not this run.
+The steps are in [plan/PLAN.md](plan/PLAN.md). The same clock is in both pastes.
 
-The clock is in both pastes. The shape page is [plan/PLAN.md](plan/PLAN.md).
+## What and why
+
+**What.** One desk sender. Steps of 15 minutes at 1 family, then 2, then 4, then 8 if 4 held the line, with 5-minute gaps. Then a 10-minute ramp. Offer 1.2 hop/s per family. Line 1.14, which is 1,026 hops per family over 900 seconds. Then one 32-family load, 45 minutes, same offer. Then one 16-family step, 15 minutes, same offer. The desk sends and counts. Mini counts. Bot watches. Miners stay off.
+
+**Why.** 29 Oct ran 1, then 2, then 4. The 7 Nov window was the counted 1-to-8 of that shape, and it did not start. This rehearsal runs that shape, then the busy 32, then the missing step at 16. Eight families in this shape have cleared 1.14, slowest family about 1.26 hop/s. Thirty-two have sat near 34 hop/s total, slowest family under 1.14. Sixteen is the step between those two. The full why is [WHY.md](WHY.md). The sixteen-family page is [plan/SIXTEEN.md](plan/SIXTEEN.md).
+
+**Already run, and not this rehearsal.** The holds, the Friday passes, and both 32-family loads stay in [tn10-storm-2026-11-07](https://github.com/STP-KAS/tn10-storm-2026-11-07). They are not this clock.
 
 ## Map
 
 | Path | What is in it |
 |---|---|
-| [GO.md](GO.md) | Map. Does not start a machine |
+| [DISCLAIMER.md](DISCLAIMER.md) | Experimental. Certainty labels A / B / C |
+| [WHY.md](WHY.md) | Why this rehearsal, and what it does not test |
+| [WHAT-WENT-WRONG.md](WHAT-WENT-WRONG.md) | The 7 Nov miss, in order |
+| [GO.md](GO.md) | Map of the two pastes. Does not start a machine |
 | [GO-DESK.md](GO-DESK.md) | Desk paste. The whole story. Desk sends and counts |
 | [GO-MINI.md](GO-MINI.md) | Mini paste. The same story. Mini counts |
-| [WHAT-WENT-WRONG.md](WHAT-WENT-WRONG.md) | The 7 Nov miss, in order, and the fix |
-| [plan/PLAN.md](plan/PLAN.md) | The shape, including the sixteen-family step |
-| [go/TEST-BUILD.md](go/TEST-BUILD.md) | Closed. Points at GO-DESK.md |
-| [go/TEST-MINI.md](go/TEST-MINI.md) | Closed. Points at GO-MINI.md |
-| [go/GO-BUILD.md](go/GO-BUILD.md) | Official desk sheet. Date not locked. Not this test |
-| [go/GO-MINI.md](go/GO-MINI.md) | Official Mini sheet. Date not locked. Not this test |
-| [hashes/README.md](hashes/README.md) | Where the three hash files go. Empty until the runner writes them |
+| [go/README.md](go/README.md) | The single clock and which paste goes on which computer |
+| [plan/PLAN.md](plan/PLAN.md) | The shape and the offsets |
+| [plan/COUNT.md](plan/COUNT.md) | How a hop is counted |
+| [plan/SIXTEEN.md](plan/SIXTEEN.md) | Why sixteen families are in this rehearsal |
+| [hashes/README.md](hashes/README.md) | Three hash files, written by the desk before each submit |
+| [logs/README.md](logs/README.md) | Results after the rehearsal. Empty until then |
+
+The old names [go/GO-BUILD.md](go/GO-BUILD.md) and [go/GO-MINI.md](go/GO-MINI.md) are closed. They do not start this rehearsal, and they do not hold a later date.
+
+## Results
+
+None yet. After the rehearsal the write-up lands under [logs/](logs/README.md). A number from this night is a rehearsal result. The counted storm is the next repo.
 
 Counts only. No key, seed, txid, covenant id, address, host or port in this repo.

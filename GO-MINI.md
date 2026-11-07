@@ -14,7 +14,7 @@ You know you are Mini because this file was pasted here. The session name does n
 
 You count on your own node. You do not send. You do not run genesis. You do not mine. You do not hold a key. The desk sends and also counts. Bot watches and does not send. The rest of this file is the whole test, so you can see what the desk and bot are doing. You do only the Mini work.
 
-The 7 Nov window did not run. The record is [WHAT-WENT-WRONG.md](WHAT-WENT-WRONG.md). The shape of that window is in this run, and the sixteen-family step from [tn10-storm-plan-family-curve](https://github.com/STP-KAS/tn10-storm-plan-family-curve) is in this same run. One clock. Two pastes of that one story. [GO.md](GO.md) is the map. It does not start a machine.
+The 7 Nov window did not run. The record is [WHAT-WENT-WRONG.md](WHAT-WENT-WRONG.md). The shape of that window is in this run, and the sixteen-family step is in this same run. The why of that step is [plan/SIXTEEN.md](plan/SIXTEEN.md), in this repo. One clock. Two pastes of that one story. [GO.md](GO.md) is the map. It does not start a machine. This repo is the rehearsal. It stands on its own.
 
 ## The arm
 
@@ -116,15 +116,13 @@ Bot watches. Bot does not send, does not hold a key, and does not write the publ
 
 Eight families in this shape have cleared 1.14, slowest family about 1.26 hop/s. Thirty-two families have sat near 34 hop/s total, and the slowest family has finished under 1.14. Sixteen is the step between those two. That measurement is **43a**, and it is the last part of this test, on the clock above. You count it. The desk sends it.
 
-The long page stays [tn10-storm-plan-family-curve](https://github.com/STP-KAS/tn10-storm-plan-family-curve). For this test, do not paste that repo. This file is the Mini paste.
+The page for that step is [plan/SIXTEEN.md](plan/SIXTEEN.md), in this repo. This file is the Mini paste.
 
 **43b** asks whether the 43a number was the desk. Same sixteen, same offer, same fifteen minutes, Mini sends, desk counts. No date. Not this run. If 43a does not finish clean, 43b does not run.
 
-## The official count
+## This repo is the rehearsal
 
-Pulse picks that date. Tomorrow, Monday, Tuesday, or later. We do not choose it. [go/GO-BUILD.md](go/GO-BUILD.md) and [go/GO-MINI.md](go/GO-MINI.md) stay closed until a date is written into them. They are not this test. Do not paste them tonight. The file `go/GO-MINI.md` is the official sheet. It is not you.
-
-A result tonight is a test result. It is not his count.
+This repo stands on its own. A result tonight is a rehearsal result. When the desk and Mini have both reported, and Pulse has named a date, the counted storm is a new repo. Do not write that date into this repo. Do not paste [go/GO-BUILD.md](go/GO-BUILD.md) or the [go/GO-MINI.md](go/GO-MINI.md) in the go folder. Those names are closed. Your file is this one, at the root.
 
 ## Kit, when this page was written
 
@@ -136,8 +134,8 @@ About **23:20 UTC on 7 Nov 2026** the desk TN10 node was up and the read-only pa
 - Any send, any genesis, any miner, any key.
 - [GO-DESK.md](GO-DESK.md) as your orders. That file is the desk's.
 - [GO.md](GO.md) as a start. That page is the map.
-- [go/GO-BUILD.md](go/GO-BUILD.md) and [go/GO-MINI.md](go/GO-MINI.md). The official date is not locked.
-- A sheet from the sixteen-family repo, for this test.
+- [go/GO-BUILD.md](go/GO-BUILD.md) and the closed [go/GO-MINI.md](go/GO-MINI.md) in the go folder.
+- Any other repo as the plan for this rehearsal. The plan is this repo.
 - Waiting for "genesis is in", or for any other sentence.
 - A new clock after 00:20 UTC.
 - A second runner because a chat compacted.

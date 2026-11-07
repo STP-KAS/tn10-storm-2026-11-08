@@ -19,4 +19,4 @@ If the first sentence names the other machine, stop that session and paste the o
 
 Bot reads either file and watches. Bot does not send. The run does not wait for bot.
 
-[go/GO-BUILD.md](go/GO-BUILD.md) and [go/GO-MINI.md](go/GO-MINI.md) are the official count. The date is not locked. They are not tonight.
+This repo is the rehearsal. It stands on its own. The sixteen-family step is [plan/SIXTEEN.md](plan/SIXTEEN.md), inside the same two pastes. When both machines have reported and Pulse names a date, the counted storm is a new repo. Do not paste [go/GO-BUILD.md](go/GO-BUILD.md) or [go/GO-MINI.md](go/GO-MINI.md). Those names are closed.
