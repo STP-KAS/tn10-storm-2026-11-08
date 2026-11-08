@@ -4,7 +4,7 @@
 
 # Method, 8 Nov 2026 rehearsal
 
-Status at 00:35 UTC: eight genesis calls are in. Preflight passed. The sender and the gate are up. The first send waits for 00:40 UTC. This page is filled as each phase proves itself. A result number waits until the phase has ended.
+Status at 00:40 UTC: the first send is open. Step f1, one family, offer 1.2. This page is filled as each phase proves itself. A result number waits until the phase has ended.
 
 The operator confirmed before sleep that the desk runner, the desk monitor, and the Mini runner were up.
 
@@ -53,7 +53,7 @@ A failed night is not given a new clock on the same night. That is how 7 Nov was
 | Eight hashes on this repo | before 00:35 UTC | 00:06 UTC. Eight rows |
 | Genesis, eight families | 00:35 UTC | 00:34:56–00:35:01 UTC. Eight included. No family drop. Preflight passed. Clock inside the gate. Sender and gate up at 00:35:06. Miners off |
 | Counts on | 00:38 UTC | |
-| First send | 00:40–02:10 UTC | |
+| First send | 00:40–02:10 UTC | Opened 00:40:00 UTC. Step f1, one family, offer 1.2. Three unaccepts in the first ten seconds. The coordinator resynced. No family drop, no abort, no sender exit |
 | 4-family gate | 01:35 UTC | |
 | 32-family hashes, then load | before 02:55, send 02:55–03:40 | |
 | Sixteen hashes, then the step | before 04:15, send 04:15–04:30 | |
