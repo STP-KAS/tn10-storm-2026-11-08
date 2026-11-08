@@ -45,8 +45,10 @@ A schedule may put two rows on the same clock only when one of them is turned of
 
 Counts only in the repo. No key, seed, txid, covenant id, address, host, or port. The hash file holds the sha256 of the lowercase hex covenant id. The id stays off the repo.
 
+Mini's count files are `counts/mini/FIRST.md`, `counts/mini/LOAD.md`, and `counts/mini/SIXTEEN.md`. Mini's runner publishes each file at its count-off, with git called by the full path it resolved at the start. The desk does not write that folder. The chat does not publish it.
+
 The line of 1,026 hops per family over 900 seconds is reported. It does not stop a step. The 8-family step is the one that waits on the 4-family step holding that line.
 
 ## Files the next storm keeps
 
-README, DISCLAIMER, WHY, the two root pastes, GO.md, this page, `plan/`, `hashes/`, `logs/`. A missed window gets a WHAT-WENT-WRONG page in that storm's own repo.
+README, DISCLAIMER, WHY, the two root pastes, GO.md, this page, `plan/`, `hashes/`, `logs/`, `counts/mini/`. A missed window gets a WHAT-WENT-WRONG page in that storm's own repo.

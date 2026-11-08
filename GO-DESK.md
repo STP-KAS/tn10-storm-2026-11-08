@@ -104,13 +104,13 @@ You do not wait for a person to speak. You do not start a second sender. You do 
 
 Mini counts. Mini does not send, does not run genesis, does not mine, and does not hold a key. Mini's paste is [GO-MINI.md](GO-MINI.md). You do not do Mini's work, and you do not paste this desk file onto Mini.
 
-Mini's counter goes on at 00:38, again for the load at 02:53, and again for the sixteen families at 04:13. A minute Mini did not read stays marked. 1,026 hops per family does not stop Mini.
+Mini's counter goes on at 00:38, again for the load at 02:53, and again for the sixteen families at 04:13. A minute Mini did not read stays marked. 1,026 hops per family does not stop Mini. Mini's runner publishes each closed file under [counts/mini/](counts/mini/README.md). You do not write that folder.
 
 Turn **43b** is the later question, Mini sending and the desk counting. It has no date. It is not this run. Mini does not send tonight.
 
 ## What bot is doing
 
-Bot watches. Bot does not send, does not hold a key, and does not write the published count. Mini's file is the count. The run does not wait for bot. If a chat dies, bot writes down whether the runner is still in the log. Bot does not start a second runner.
+Bot watches. Bot does not send, does not hold a key, and does not write the published count. Mini's files under [counts/mini/](counts/mini/README.md) are the count. The run does not wait for bot. If a chat dies, bot writes down whether the runner is still in the log. Bot does not start a second runner.
 
 ## Why the sixteen families are in this run
 

@@ -71,6 +71,7 @@ The steps are in [plan/PLAN.md](plan/PLAN.md). The same clock is in both pastes.
 | [plan/SIXTEEN.md](plan/SIXTEEN.md) | Why sixteen families are in this rehearsal |
 | [hashes/README.md](hashes/README.md) | Three hash files, written by the desk before each submit |
 | [logs/METHOD.md](logs/METHOD.md) | What this rehearsal did, and the desk scores |
+| [counts/mini/README.md](counts/mini/README.md) | Mini's three count files. Mini's runner publishes them |
 
 The old names [go/GO-BUILD.md](go/GO-BUILD.md) and [go/GO-MINI.md](go/GO-MINI.md) are closed. They do not start this rehearsal, and they do not hold a later date.
 

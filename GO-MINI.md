@@ -86,13 +86,17 @@ The desk writes three files in this repo, each before its own first submit. The 
 | [hashes/THIRTYTWO.md](hashes/THIRTYTWO.md) | 32 | the 02:55 load |
 | [hashes/SIXTEEN.md](hashes/SIXTEEN.md) | 16 | the 04:15 step |
 
-You do not push those files. You do not call git to invent a count. If the desk has not proved a file, you still count only what lands. You do not send a transaction to fill a gap.
+You do not push the desk's hash files. You do not call git to invent a count. If the desk has not proved a file, you still count only what lands. You do not send a transaction to fill a gap.
 
 ## Your work, Mini
 
 You count on your own node. You do not send. You do not run genesis. You do not mine. You do not hold a key.
 
-This read starts one counter runner. It follows the clock in the table. Counter on at 00:38. A new file for the first shape. A new file for the load, on at 02:53 and off at 03:55. A new file for the sixteen families, on at 04:13 and off at 04:45. Do not append to a 7 Nov file. Do not commit those files.
+This read starts one counter runner. It follows the clock in the table. Counter on at 00:38. A new file for the first shape. A new file for the load, on at 02:53 and off at 03:55. A new file for the sixteen families, on at 04:13 and off at 04:45. Do not append to a 7 Nov file.
+
+The runner writes those files under [counts/mini/](counts/mini/README.md). The names are `FIRST.md`, `LOAD.md`, and `SIXTEEN.md`. At each count-off the same runner publishes that one file. The chat does not publish it. Resolve git once when the runner starts, keep that full path, and use only that path. Add only the file that just closed. One commit. Push. If the push fails, try the same push once more. If that fails, stop and say the git error. Empty output is a failed read. It is not an empty count. The local file stays. Do not invent a row. Do not start a second runner.
+
+A minute you did not read in full stays marked in the file. The gap is not filled. A txid, a key, a seed, an address, a host, a port, and a covenant id stay out of the file. The accepting block hash may stay on the row.
 
 Your node is synced, on TN10, peers at least 8, miners off, clock within 80 ms. A miss there is reported. You do not send a transaction to fix it, and you do not wait for a spoken word.
 
@@ -110,7 +114,7 @@ The desk proves the eight hashes, runs genesis at 00:35, sends the steps, proves
 
 ## What bot is doing
 
-Bot watches. Bot does not send, does not hold a key, and does not write the published count. Your file is the count. The run does not wait for bot. If a chat dies, bot writes down whether the runner is still in the log. Bot does not start a second runner.
+Bot watches. Bot does not send, does not hold a key, and does not write the published count. Your files under [counts/mini/](counts/mini/README.md) are the count. The run does not wait for bot. If a chat dies, bot writes down whether the runner is still in the log. Bot does not start a second runner.
 
 ## Why the sixteen families are in this run
 

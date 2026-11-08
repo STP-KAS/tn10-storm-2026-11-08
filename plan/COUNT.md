@@ -18,6 +18,6 @@ An accepted hop is a hop that landed in a block. Genesis is not a hop. A conflic
 | [hashes/THIRTYTWO.md](../hashes/THIRTYTWO.md) | the load | the 02:55 UTC send |
 | [hashes/SIXTEEN.md](../hashes/SIXTEEN.md) | the sixteen-family step | the 04:15 UTC send |
 
-The desk proves each file, with git called by its full path, before the matching submit. A git error is logged as a git error. Empty output is a failed read. No file, no send. Mini counts what lands. Mini does not invent a count.
+The desk proves each file, with git called by its full path, before the matching submit. A git error is logged as a git error. Empty output is a failed read. No file, no send. Mini counts what lands. Mini does not invent a count. Mini's runner publishes the closed file under [counts/mini/](../counts/mini/README.md) at each count-off.
 
 We do not claim this reading is the truth. It is the same reading as [the 7 Nov count plan](https://github.com/STP-KAS/tn10-storm-2026-11-07/blob/main/plan/COUNT.md), on this rehearsal's clock.
