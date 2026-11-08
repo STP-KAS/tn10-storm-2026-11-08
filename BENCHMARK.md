@@ -55,4 +55,4 @@ The line of 1,026 hops per family over 900 seconds is reported. It does not stop
 
 ## Files the next storm keeps
 
-README, DISCLAIMER, WHY, the two root pastes, GO.md, this page, `plan/`, `hashes/`, `logs/`, `counts/mini/`, `counts/desk/`. A missed window gets a WHAT-WENT-WRONG page in that storm's own repo. Each hash file carries its On origin time.
+README, DISCLAIMER, WHY, the two root pastes, GO.md, this page, [RULES.md](RULES.md), `plan/`, `hashes/`, `logs/`, `counts/mini/`, `counts/desk/`. A missed window gets a WHAT-WENT-WRONG page in that storm's own repo. Each hash file carries its On origin time. The rule page is what a later storm copies when the task is the same.

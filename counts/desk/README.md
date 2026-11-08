@@ -4,7 +4,7 @@
 
 # Desk counts
 
-The desk counts. Previous counted storms already counted on the sending machine: the 11 Oct build logs, and the 20 Oct and 29 Oct desk readings. On a live clock the desk runner writes three files here and publishes each one at the window end. The chat is not the publisher.
+The desk counts. Previous counted storms already counted on the sending machine: the 11 Oct build logs, and the 20 Oct and 29 Oct desk readings. On a live clock the desk runner writes three files here and publishes each one at the window end. The chat is not the publisher. The standing rule is [RULES.md](../../RULES.md).
 
 | File | Counter on | Counter off |
 |---|---|---|

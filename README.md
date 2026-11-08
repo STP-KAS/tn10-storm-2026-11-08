@@ -73,6 +73,7 @@ The steps are in [plan/PLAN.md](plan/PLAN.md). The same clock is in both pastes.
 | [logs/METHOD.md](logs/METHOD.md) | What this rehearsal did, and the desk scores |
 | [counts/mini/README.md](counts/mini/README.md) | Mini's three count files. Mini's runner publishes them |
 | [counts/desk/README.md](counts/desk/README.md) | The desk's three count files. The desk runner publishes them |
+| [RULES.md](RULES.md) | The standing rule. Who publishes, how a hash file is proved, how git is called, one runner. This clock is closed |
 
 The old names [go/GO-BUILD.md](go/GO-BUILD.md) and [go/GO-MINI.md](go/GO-MINI.md) are closed. They do not start this rehearsal, and they do not hold a later date.
 

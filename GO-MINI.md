@@ -16,7 +16,7 @@ You count on your own node. You do not send. You do not run genesis. You do not 
 
 ## This clock is closed
 
-The desk night ended at 04:50:03 UTC on 8 Nov 2026. Your three count files are already on this repo, commit 6e5f086, at 2026-11-08T07:27:53Z. A read of this file after that close does not start a runner, does not send, and does not recount. The next run is a new repo. The rules below are the standard that repo copies.
+The desk night ended at 04:50:03 UTC on 8 Nov 2026. Your three count files are already on this repo, commit 6e5f086, at 2026-11-08T07:27:53Z. A read of this file after that close does not start a runner, does not send, and does not recount. The next run is a new repo. The standing rule is [RULES.md](RULES.md). The rules below are the standard that repo copies.
 
 The 7 Nov window did not run. The record is [WHAT-WENT-WRONG.md](WHAT-WENT-WRONG.md). The shape of that window is in this run, and the sixteen-family step is in this same run. The why of that step is [plan/SIXTEEN.md](plan/SIXTEEN.md), in this repo. One clock. Two pastes of that one story. [GO.md](GO.md) is the map. It does not start a machine. This repo is the rehearsal. It stands on its own.
 
