@@ -70,12 +70,12 @@ The steps are in [plan/PLAN.md](plan/PLAN.md). The same clock is in both pastes.
 | [plan/COUNT.md](plan/COUNT.md) | How a hop is counted |
 | [plan/SIXTEEN.md](plan/SIXTEEN.md) | Why sixteen families are in this rehearsal |
 | [hashes/README.md](hashes/README.md) | Three hash files, written by the desk before each submit |
-| [logs/README.md](logs/README.md) | Results after the rehearsal. Empty until then |
+| [logs/METHOD.md](logs/METHOD.md) | What this rehearsal did, and the desk scores |
 
 The old names [go/GO-BUILD.md](go/GO-BUILD.md) and [go/GO-MINI.md](go/GO-MINI.md) are closed. They do not start this rehearsal, and they do not hold a later date.
 
 ## Results
 
-None yet. After the rehearsal the write-up lands under [logs/](logs/README.md). A number from this night is a rehearsal result. The counted storm is the next repo.
+The desk night closed at 04:50 UTC on 8 Nov 2026. Every desk phase ended on its clock. The scores, the ramp stop, and the load mean under the report line are in [logs/METHOD.md](logs/METHOD.md). Mini's count file is not in this repo yet. A number from this night is a rehearsal result. The counted storm is the next repo.
 
 Counts only. No key, seed, txid, covenant id, address, host or port in this repo.
