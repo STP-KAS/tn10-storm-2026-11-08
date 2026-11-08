@@ -58,6 +58,7 @@ The steps are in [plan/PLAN.md](plan/PLAN.md). The same clock is in both pastes.
 
 | Path | What is in it |
 |---|---|
+| [BENCHMARK.md](BENCHMARK.md) | The pattern for the next storm. Does not start a machine |
 | [DISCLAIMER.md](DISCLAIMER.md) | Experimental. Certainty labels A / B / C |
 | [WHY.md](WHY.md) | Why this rehearsal, and what it does not test |
 | [WHAT-WENT-WRONG.md](WHAT-WENT-WRONG.md) | The 7 Nov miss, in order |
