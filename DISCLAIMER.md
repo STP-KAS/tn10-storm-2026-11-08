@@ -8,4 +8,4 @@
 
 **Certainty labels:** **A** = measured on TN10 and in the linked files. **B** = same node code, so it probably applies elsewhere, but not tested there. **C** = opinion or guess.
 
-We do not claim this write-up is the truth about the network. It is the record of a start that did not happen, and of what we will change.
+We do not claim this write-up is the truth about the network. It is the record of a start that did not happen, and of the rehearsal that followed. The desk night closed on 8 Nov 2026. A number from that night is a rehearsal result.

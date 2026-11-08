@@ -14,6 +14,10 @@ You know you are the desk because this file was pasted here. The session name do
 
 You send. You also count. Mini counts on its own node and does not send. Bot watches and does not send. The rest of this file is the whole test, so you can see what Mini and bot are doing. You do only the desk work.
 
+## This clock is closed
+
+The desk night ended at 04:50:03 UTC on 8 Nov 2026. A read of this file after that close does not start a runner, does not send, and does not recount. The next run is a new repo. The rules below are the standard that repo copies.
+
 The 7 Nov window did not run. The record is [WHAT-WENT-WRONG.md](WHAT-WENT-WRONG.md). The shape of that window is in this run, and the sixteen-family step is in this same run. The why of that step is [plan/SIXTEEN.md](plan/SIXTEEN.md), in this repo. One clock. Two pastes of that one story. [GO.md](GO.md) is the map. It does not start a machine. This repo is the rehearsal. It stands on its own.
 
 ## The arm
@@ -39,7 +43,7 @@ Start **T0** is Sun 8 Nov 2026, **00:40 UTC (01:40 CET)**.
 | UTC | CET | Who | What |
 |---|---|---|---|
 | 00:20 | 01:20 | desk, Mini | Last moment to be logged in and to have read the matching paste |
-| before 00:35 | before 01:35 | desk | Eight family hashes on this repo. The read is logged |
+| before 00:35 | before 01:35 | desk | Eight family hashes on this repo, with an On origin time. The read is logged |
 | 00:35 | 01:35 | desk | Genesis. Eight families |
 | 00:38 | 01:38 | desk, Mini | Counts on |
 | 00:40–00:55 | 01:40–01:55 | desk sends | 1 family, 15 minutes |
@@ -48,15 +52,15 @@ Start **T0** is Sun 8 Nov 2026, **00:40 UTC (01:40 CET)**.
 | 01:40–01:55 | 02:40–02:55 | desk sends | 8 families, 15 minutes, only if 4 held the line |
 | 02:00–02:10 | 03:00–03:10 | desk sends | Ramp, 10 minutes |
 | 02:10 | 03:10 | desk | First sends finished |
-| 02:40 | 03:40 | desk, Mini | First count off |
-| before 02:55 | before 03:55 | desk | Thirty-two family hashes on this repo |
-| 02:53 | 03:53 | Mini | Load count on |
+| 02:40 | 03:40 | desk, Mini | First count off. Each runner publishes its FIRST file |
+| before 02:55 | before 03:55 | desk | Thirty-two family hashes on this repo, with an On origin time |
+| 02:53 | 03:53 | desk, Mini | Load count on |
 | 02:55–03:40 | 03:55–04:40 | desk sends | 32 families, 45 minutes, offer 1.2 |
-| 03:55 | 04:55 | Mini | Load count off |
+| 03:55 | 04:55 | desk, Mini | Load count off. Each runner publishes its LOAD file |
 | 03:55–04:15 | 04:55–05:15 | both | Quiet. Recount. Sixteen hashes |
-| 04:13 | 05:13 | Mini | Sixteen-family count on |
+| 04:13 | 05:13 | desk, Mini | Sixteen-family count on |
 | 04:15–04:30 | 05:15–05:30 | desk sends | **43a.** 16 families, 15 minutes, offer 1.2 |
-| 04:45 | 05:45 | Mini | Sixteen-family count off |
+| 04:45 | 05:45 | desk, Mini | Sixteen-family count off. Each runner publishes its SIXTEEN file |
 
 If the 4-family step does not hold the line, skip the 8-family step and start the ramp at **01:40 UTC (02:40 CET)**. The load stays at 02:55 UTC. The sixteen-family step stays at 04:15 UTC. Do not pull those later steps forward to fill the gap.
 
@@ -88,15 +92,29 @@ Three files in this repo, each before its own first submit. The id stays off the
 
 Call git by its full path. Keep its own output, errors included. A git error is a git error. Empty output is a failed read. It is not proof that the file is missing, and it is not "zero hashes". Read once more with the same full path. If that read fails too, stop and say the read failed. No file, no send.
 
-The proof line goes into the desk log from the runner that will send. A check from a different session does not count.
+Fixed is the local write time. On origin is the commit time of the commit that put the rows on GitHub. A file with rows and no On origin line is not proof the push happened. After the push of the rows succeeds, the same runner reads that commit time from origin and writes it into the file. The time comes from origin. The runner does not invent it. Then it pushes that one line.
+
+This night, the rows reached origin/main at these times. The On origin lines in the files were added after the night, from `git log`.
+
+| File | Fixed, local write | On origin/main |
+|---|---|---|
+| [hashes/EIGHT.md](hashes/EIGHT.md) | 2026-11-08T00:06:08Z | 2026-11-08T00:07:21Z, commit 430e905 |
+| [hashes/THIRTYTWO.md](hashes/THIRTYTWO.md) | 2026-11-08T02:30:01Z | 2026-11-08T02:30:02Z, commit 180529c |
+| [hashes/SIXTEEN.md](hashes/SIXTEEN.md) | 2026-11-08T04:00:04Z | 2026-11-08T04:00:04Z, commit abb8ac5 |
+
+The proof line goes into the desk log from the runner that will send. A check from a different session does not count. The proof line names the file, the row count, and the On origin time.
 
 ## Your work, desk
 
 You send. You also count. Mini counts on its own node. You are the only sender.
 
-This read starts one runner. The runner sleeps until the clock. It writes a phase log. After the runner is up, the session can die. The runner keeps the clock.
+On a live clock, this read starts one runner. The runner sleeps until the clock. It writes a phase log. After the runner is up, the session can die. The runner keeps the clock. This file's clock is closed, so this read does not start that runner.
 
-Before 00:35, prove [hashes/EIGHT.md](hashes/EIGHT.md). Then genesis. Then the steps in the clock. Then the load, after [hashes/THIRTYTWO.md](hashes/THIRTYTWO.md). Then, only if the rules above say 43a may start, one sixteen-family step after [hashes/SIXTEEN.md](hashes/SIXTEEN.md).
+You count on the desk node for the same three windows Mini counts. The runner writes [counts/desk/FIRST.md](counts/desk/README.md) for 00:38–02:40, [counts/desk/LOAD.md](counts/desk/README.md) for 02:53–03:55, and [counts/desk/SIXTEEN.md](counts/desk/README.md) for 04:13–04:45. At each window end the same runner publishes that one file. The chat does not publish it. Resolve git once when the runner starts, keep that full path, and use only that path. Add only the file that just closed. One commit. Push. If the push fails, try the same push once more. If that fails, stop and say the git error. Empty output is a failed read. It is not an empty count. The local file stays. Do not invent a row. Do not start a second runner. A minute you did not read in full stays marked. The gap is not filled. A txid, a key, a seed, an address, a host, a port, and a covenant id stay out of the file. The accepting block hash may stay on the row. You do not write [counts/mini/](counts/mini/README.md).
+
+Previous counted storms already counted on the sending machine. The 11 Oct build logs, and the 20 Oct and 29 Oct desk readings, are that count. This night the desk counted. The scores are in [logs/METHOD.md](logs/METHOD.md). The runner did not publish `counts/desk/`. This closed night is not recounted into that folder.
+
+Before 00:35, prove [hashes/EIGHT.md](hashes/EIGHT.md), including its On origin time. Then genesis. Then the steps in the clock. Then the load, after [hashes/THIRTYTWO.md](hashes/THIRTYTWO.md) has an On origin time. Then, only if the rules above say 43a may start, one sixteen-family step after [hashes/SIXTEEN.md](hashes/SIXTEEN.md) has an On origin time.
 
 You do not wait for a person to speak. You do not start a second sender. You do not use the 7 Nov tasks.
 
@@ -110,7 +128,7 @@ Turn **43b** is the later question, Mini sending and the desk counting. It has n
 
 ## What bot is doing
 
-Bot watches. Bot does not send, does not hold a key, and does not write the published count. Mini's files under [counts/mini/](counts/mini/README.md) are the count. The run does not wait for bot. If a chat dies, bot writes down whether the runner is still in the log. Bot does not start a second runner.
+Bot watches. Bot does not send, does not hold a key, and does not write the published count. Mini's files under [counts/mini/](counts/mini/README.md) and the desk's files under [counts/desk/](counts/desk/README.md) are the two counts. The run does not wait for bot. If a chat dies, bot writes down whether the runner is still in the log. Bot does not start a second runner.
 
 ## Why the sixteen families are in this run
 
@@ -139,6 +157,7 @@ About **23:20 UTC on 7 Nov 2026** the desk TN10 node was up and the read-only pa
 - A spoken "genesis is in".
 - A new clock after 00:20 UTC.
 - A second runner because a chat compacted.
+- A start, a send, or a recount after 04:50:03 UTC on this clock.
 - A start of 43a during the first shape or the load.
 - Mini sending, tonight. Bot sending, tonight.
 - Hiding a git error, or calling empty output zero hashes.

@@ -4,7 +4,7 @@
 
 T0 is **2026-11-08T00:40:00Z**, which is **01:40 CET**. The rehearsal is the whole clock in [GO-DESK.md](../GO-DESK.md) and [GO-MINI.md](../GO-MINI.md), through the sixteen-family step.
 
-There is one sender. The desk. Mini counts, and Mini's runner publishes the closed files under [counts/mini/](../counts/mini/README.md). Bot watches and does not send.
+There is one sender. The desk. The desk counts, and the desk runner publishes the closed files under [counts/desk/](../counts/desk/README.md). Mini counts, and Mini's runner publishes the closed files under [counts/mini/](../counts/mini/README.md). Bot watches and does not send. This clock is closed. A read now does not start a runner.
 
 ## Which file
 

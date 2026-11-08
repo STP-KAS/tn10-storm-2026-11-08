@@ -20,4 +20,6 @@ The runner resolves git once, keeps that full path, and uses only that path. Emp
 
 ## This rehearsal, once
 
-The paste Mini ran on 8 Nov 2026 said not to commit the count files. The files stayed on Mini. The night is over. Do not recount it. Copy the files already on Mini into the three names above, under these rules, and publish them once. A file that was never written stays missing. Say which name is missing.
+The paste Mini ran on 8 Nov 2026 said not to commit the count files. The files stayed on Mini. They were copied once, after the night, into the three names above. The commit is 6e5f086, at 2026-11-08T07:27:53Z. The copy says it is not a new count. The night is over. Do not recount it. Do not publish these three files again.
+
+The desk has its own folder, [counts/desk/](../desk/README.md). Mini does not write it.

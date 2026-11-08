@@ -14,6 +14,10 @@ You know you are Mini because this file was pasted here. The session name does n
 
 You count on your own node. You do not send. You do not run genesis. You do not mine. You do not hold a key. The desk sends and also counts. Bot watches and does not send. The rest of this file is the whole test, so you can see what the desk and bot are doing. You do only the Mini work.
 
+## This clock is closed
+
+The desk night ended at 04:50:03 UTC on 8 Nov 2026. Your three count files are already on this repo, commit 6e5f086, at 2026-11-08T07:27:53Z. A read of this file after that close does not start a runner, does not send, and does not recount. The next run is a new repo. The rules below are the standard that repo copies.
+
 The 7 Nov window did not run. The record is [WHAT-WENT-WRONG.md](WHAT-WENT-WRONG.md). The shape of that window is in this run, and the sixteen-family step is in this same run. The why of that step is [plan/SIXTEEN.md](plan/SIXTEEN.md), in this repo. One clock. Two pastes of that one story. [GO.md](GO.md) is the map. It does not start a machine. This repo is the rehearsal. It stands on its own.
 
 ## The arm
@@ -39,7 +43,7 @@ Start **T0** is Sun 8 Nov 2026, **00:40 UTC (01:40 CET)**.
 | UTC | CET | Who | What |
 |---|---|---|---|
 | 00:20 | 01:20 | desk, Mini | Last moment to be logged in and to have read the matching paste |
-| before 00:35 | before 01:35 | desk | Eight family hashes on this repo. The read is logged |
+| before 00:35 | before 01:35 | desk | Eight family hashes on this repo, with an On origin time. The read is logged |
 | 00:35 | 01:35 | desk | Genesis. Eight families |
 | 00:38 | 01:38 | desk, Mini | Counts on |
 | 00:40–00:55 | 01:40–01:55 | desk sends | 1 family, 15 minutes |
@@ -48,15 +52,15 @@ Start **T0** is Sun 8 Nov 2026, **00:40 UTC (01:40 CET)**.
 | 01:40–01:55 | 02:40–02:55 | desk sends | 8 families, 15 minutes, only if 4 held the line |
 | 02:00–02:10 | 03:00–03:10 | desk sends | Ramp, 10 minutes |
 | 02:10 | 03:10 | desk | First sends finished |
-| 02:40 | 03:40 | desk, Mini | First count off |
-| before 02:55 | before 03:55 | desk | Thirty-two family hashes on this repo |
-| 02:53 | 03:53 | Mini | Load count on |
+| 02:40 | 03:40 | desk, Mini | First count off. Each runner publishes its FIRST file |
+| before 02:55 | before 03:55 | desk | Thirty-two family hashes on this repo, with an On origin time |
+| 02:53 | 03:53 | desk, Mini | Load count on |
 | 02:55–03:40 | 03:55–04:40 | desk sends | 32 families, 45 minutes, offer 1.2 |
-| 03:55 | 04:55 | Mini | Load count off |
+| 03:55 | 04:55 | desk, Mini | Load count off. Each runner publishes its LOAD file |
 | 03:55–04:15 | 04:55–05:15 | both | Quiet. Recount. Sixteen hashes |
-| 04:13 | 05:13 | Mini | Sixteen-family count on |
+| 04:13 | 05:13 | desk, Mini | Sixteen-family count on |
 | 04:15–04:30 | 05:15–05:30 | desk sends | **43a.** 16 families, 15 minutes, offer 1.2 |
-| 04:45 | 05:45 | Mini | Sixteen-family count off |
+| 04:45 | 05:45 | desk, Mini | Sixteen-family count off. Each runner publishes its SIXTEEN file |
 
 If the 4-family step does not hold the line, the desk skips the 8-family step and starts the ramp at **01:40 UTC (02:40 CET)**. The load stays at 02:55 UTC. The sixteen-family step stays at 04:15 UTC. You still count whatever the desk actually sends.
 
@@ -88,11 +92,19 @@ The desk writes three files in this repo, each before its own first submit. The 
 
 You do not push the desk's hash files. You do not call git to invent a count. If the desk has not proved a file, you still count only what lands. You do not send a transaction to fill a gap.
 
+Fixed is the local write. On origin is the commit time of the commit that put the rows on GitHub. A hash file with no On origin line is not proof the push happened. This night the rows reached origin/main at these times:
+
+| File | Fixed, local write | On origin/main |
+|---|---|---|
+| [hashes/EIGHT.md](hashes/EIGHT.md) | 2026-11-08T00:06:08Z | 2026-11-08T00:07:21Z, commit 430e905 |
+| [hashes/THIRTYTWO.md](hashes/THIRTYTWO.md) | 2026-11-08T02:30:01Z | 2026-11-08T02:30:02Z, commit 180529c |
+| [hashes/SIXTEEN.md](hashes/SIXTEEN.md) | 2026-11-08T04:00:04Z | 2026-11-08T04:00:04Z, commit abb8ac5 |
+
 ## Your work, Mini
 
 You count on your own node. You do not send. You do not run genesis. You do not mine. You do not hold a key.
 
-This read starts one counter runner. It follows the clock in the table. Counter on at 00:38. A new file for the first shape. A new file for the load, on at 02:53 and off at 03:55. A new file for the sixteen families, on at 04:13 and off at 04:45. Do not append to a 7 Nov file.
+On a live clock, this read starts one counter runner. It follows the clock in the table. Counter on at 00:38. A new file for the first shape. A new file for the load, on at 02:53 and off at 03:55. A new file for the sixteen families, on at 04:13 and off at 04:45. Do not append to a 7 Nov file. This file's clock is closed, so this read does not start that runner, and it does not publish the three files again.
 
 The runner writes those files under [counts/mini/](counts/mini/README.md). The names are `FIRST.md`, `LOAD.md`, and `SIXTEEN.md`. At each count-off the same runner publishes that one file. The chat does not publish it. Resolve git once when the runner starts, keep that full path, and use only that path. Add only the file that just closed. One commit. Push. If the push fails, try the same push once more. If that fails, stop and say the git error. Empty output is a failed read. It is not an empty count. The local file stays. Do not invent a row. Do not start a second runner.
 
@@ -108,13 +120,13 @@ Turn **43b** is the later question, Mini sending and the desk counting. It has n
 
 ## What the desk is doing
 
-The desk sends, and the desk counts too. The desk's paste is [GO-DESK.md](GO-DESK.md). You do not do the desk's work, and you do not paste this Mini file onto the desk.
+The desk sends, and the desk counts too. The desk's runner publishes [counts/desk/](counts/desk/README.md) at each window end. The desk's paste is [GO-DESK.md](GO-DESK.md). You do not do the desk's work, and you do not paste this Mini file onto the desk. You do not write `counts/desk/`.
 
 The desk proves the eight hashes, runs genesis at 00:35, sends the steps, proves the thirty-two hashes, sends the load, and, only if the earlier part finished clean, sends the sixteen families at 04:15. The desk is the only sender.
 
 ## What bot is doing
 
-Bot watches. Bot does not send, does not hold a key, and does not write the published count. Your files under [counts/mini/](counts/mini/README.md) are the count. The run does not wait for bot. If a chat dies, bot writes down whether the runner is still in the log. Bot does not start a second runner.
+Bot watches. Bot does not send, does not hold a key, and does not write the published count. Your files under [counts/mini/](counts/mini/README.md) and the desk's files under [counts/desk/](counts/desk/README.md) are the two counts. The run does not wait for bot. If a chat dies, bot writes down whether the runner is still in the log. Bot does not start a second runner.
 
 ## Why the sixteen families are in this run
 
@@ -143,5 +155,6 @@ About **23:20 UTC on 7 Nov 2026** the desk TN10 node was up and the read-only pa
 - Waiting for "genesis is in", or for any other sentence.
 - A new clock after 00:20 UTC.
 - A second runner because a chat compacted.
+- A start, a send, or a recount after the close of this clock.
 - Filling a minute you did not read.
 - An id, a txid, a key, a seed, an address, a host, or a port in this repo or in chat.

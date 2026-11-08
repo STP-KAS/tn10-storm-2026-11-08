@@ -4,6 +4,8 @@
 
 Fixed 2026-11-08T02:30:01Z, before the send. sha256 of the lowercase hex id. The id is not in this file. Published on this repo only. This is hashes/THIRTYTWO.md for the 8 Nov rehearsal.
 
+On origin/main at 2026-11-08T02:30:02Z, commit 180529c. That commit put these rows on GitHub. Fixed is the local write. On origin is that commit's time. This sentence was added after the night, from `git log` of this file.
+
 | Family | sha256 |
 |---:|---|
 | 1 | `01dd607515cc76278dff8b807ecacbf98799e43f3db2fa98c4d701cdb8767982` |

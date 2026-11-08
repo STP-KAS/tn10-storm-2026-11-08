@@ -4,7 +4,7 @@
 
 # Method, 8 Nov 2026 rehearsal
 
-Status at 04:50 UTC: the desk night is closed. Every desk phase ended on its clock, and every desk exit was 0. No family drop and no abort on any phase. Mini's count file is not in this repo yet. The desk record below is the benchmark for the next rehearsal's desk side.
+Status at 04:50 UTC: the desk night is closed. Every desk phase ended on its clock, and every desk exit was 0. No family drop and no abort on any phase. Mini's three count files landed later, commit 6e5f086 at 2026-11-08T07:27:53Z. The desk scores below are the benchmark for the next rehearsal's desk side. They are one desk reading.
 
 The operator confirmed before sleep that the desk runner, the desk monitor, and the Mini runner were up.
 
@@ -33,7 +33,11 @@ A failed night is not given a new clock on the same night. That is how 7 Nov was
 
 **Third funding coin.** Three of the first eight keys have only two funding coins. The eight-family genesis uses one. The load uses the second. Those three keys cannot fund the sixteen step. The sixteen step uses sixteen other keys that still have a coin after those two genesis calls. Its hashes are published after the load, and before 04:15 UTC. The ids stay off the repo.
 
-**Mini's counts stayed on Mini.** The Mini paste for this night said "Do not commit those files." It also said not to push the desk's hash files, and that sentence was the only git line Mini had for his own count. Mini counted. Nothing from Mini reached this repo. From this page on, Mini's runner publishes `counts/mini/FIRST.md`, `counts/mini/LOAD.md`, and `counts/mini/SIXTEEN.md` at each count-off. The desk does not write that folder.
+**Mini's counts stayed on Mini until after the night.** The Mini paste for this night said "Do not commit those files." It also said not to push the desk's hash files, and that sentence was the only git line Mini had for his own count. Mini counted. Nothing from Mini reached this repo during the night. After the night the three files were copied once into [counts/mini/](../counts/mini/README.md). Commit 6e5f086, 2026-11-08T07:27:53Z. The copy says it is not a new count. From this page on, Mini's runner publishes `counts/mini/FIRST.md`, `counts/mini/LOAD.md`, and `counts/mini/SIXTEEN.md` at each count-off. The desk does not write that folder.
+
+**The desk counted, and the runner did not publish a desk count file.** Previous counted storms already counted on the sending machine. This night the desk hop log was scored into the table below by the session. The runner never wrote `counts/desk/`. From this page on, the desk runner publishes `counts/desk/FIRST.md`, `counts/desk/LOAD.md`, and `counts/desk/SIXTEEN.md` at each window end, the same three windows Mini uses. This closed night is not recounted into that folder. The public desk score stays the table below.
+
+**Hash upload time.** Fixed is the local write. On origin is the commit that put the rows on GitHub. Eight: fixed 2026-11-08T00:06:08Z, on origin 2026-11-08T00:07:21Z, commit 430e905. Thirty-two: fixed 2026-11-08T02:30:01Z, on origin 2026-11-08T02:30:02Z, commit 180529c. Sixteen: fixed 2026-11-08T04:00:04Z, on origin 2026-11-08T04:00:04Z, commit abb8ac5. A later runner writes the On origin time into the hash file after the push of the rows succeeds. The time comes from origin.
 
 **One process for the whole night.** The eight-family window returns, and only then does the load start, and only if that window ended clean. The sixteen step starts only if the load ended clean, the hashes are on this repo, and the start is not after 06:00 UTC. The quiet load gate is copied in for those two later phases and the eight-family gate is put back after each one. The gate file is not replaced while the eight-family process is still running.
 
@@ -42,7 +46,8 @@ A failed night is not given a new clock on the same night. That is how 7 Nov was
 - Two root pastes. First sentence names the machine. Do not rewrite them after the read.
 - One runner process per machine. A monitor watches the phase log. A second runner is a fault.
 - Shift a known schedule onto the new clock. Do not hand-edit the row that shares a clock unless the gate changes with it.
-- Publish each hash file with the full git path before that phase submits. Confirm the row count on the remote. Empty output is a failed read.
+- Publish each hash file with the full git path before that phase submits. Confirm the row count on the remote. Then write the origin commit time into the file. Empty output is a failed read.
+- The desk publishes `counts/desk/` at each window end. Mini publishes `counts/mini/`. Each machine writes only its own folder.
 - Check funding coins for every genesis the night will run, before the first genesis. A key that is used twice needs two coins. A key that is used three times needs three.
 - Leave the measured steps, the offer, and the abort line alone.
 - The ramp stop is two gains under 3 percent. The phase line prints the gain to one tenth, and that tenth is rounded. A printed 3.0 can still be under 3 percent. The stop on this night was that case, after a −4.6 percent step.
@@ -62,7 +67,8 @@ A failed night is not given a new clock on the same night. That is how 7 Nov was
 | 32-family hashes, then load | before 02:55, send 02:55–03:40 | Recovery done 02:30:01 UTC, exit 0. Thirty-two hashes fixed 02:30:01 and on this repo. Genesis 02:48:55–02:49:16 UTC, thirty-two included. No drop. Preflight passed. Clock inside the gate. Miners off. Sender and the quiet load gate up at 02:49:21. Gate reports 32 families. The send opened 02:55:00 UTC, one step, offer 1.2, and ended 03:40:00 UTC, reason=window. The quiet gate turned off at 03:40:06. Accepted hops: 93,529 across 32 families. Per family, the low was 2,873, the high was 3,067, and the mean was 2,922.8 over 2,700 seconds, about 1.08 per second. The report line for that window is 3,078, which is 1.14 per second. The mean is under that line. The step was not stopped for it. The phase log has 12,303 unaccept lines. No family drop and no abort |
 | Sixteen hashes, then the step | before 04:15, send 04:15–04:30 | Load recovery done 04:00:03 UTC, exit 0. Sixteen hashes fixed 04:00:04 and on this repo, 16 rows. The runner armed 04:00:06, start 04:15, end 04:30. Genesis 04:09:56–04:10:05 UTC, sixteen included. No drop. Preflight passed. Clock inside the gate. Miners off. Sender and the quiet gate up at 04:10:10. Gate reports 16 families. The send opened 04:15:00 UTC, one step, offer 1.2, and ended 04:30:00 UTC, reason=window. The quiet gate turned off at 04:30:02. Accepted hops: 17,788 across 16 families. Per family, the low was 1,089, the high was 1,171, and the mean was 1,111.8 over 900 seconds, about 1.24 per second. The report line is 1,026. Every family is above it. The phase log has 2,120 unaccept lines. No family drop and no abort |
 | Desk night closed | after recovery | 04:50:03 UTC. Sixteen recovery done. Gate restored. Night exit 0 |
-| Mini counts in this repo | after 04:45 UTC | Not in this repo at the desk close. The paste had told Mini not to commit them. The place is now [counts/mini/](../counts/mini/README.md) |
+| Mini counts in this repo | after 04:45 UTC | Not in this repo at the desk close. Copied once after the night. Commit 6e5f086 at 2026-11-08T07:27:53Z. [counts/mini/](../counts/mini/README.md). Header hops: FIRST 99,233, LOAD 259,526, SIXTEEN 52,760. After the window: 16,399, 7,414, and 8,672. The last minute of each counter has no read mark: 02:39, 03:54, 04:44. No minute is marked unread in full. These are Mini's rows. They are not the desk scores in the table below, and this page does not average them. The family column is the sha256 already on Mini's row. The covenant id is not in the file |
+| Desk count files | at each window end | The desk counted. The runner did not publish [counts/desk/](../counts/desk/README.md). The scores are the desk-close table. This night is not recounted |
 
 A row stays blank until the phase log shows it. A fault is written here with the time, the phase, the cause, and the fix the next rehearsal will use.
 
@@ -76,6 +82,6 @@ One process, armed 00:08:40 UTC, closed 04:50:03 UTC. It did not pick a new cloc
 | Load, 32 families | 02:55–03:40 | Ended on the window. 93,529 accepted hops. Mean 2,922.8 per family. The report line is 3,078. The mean is under it. The step was not stopped |
 | Sixteen families | 04:15–04:30 | Ended on the window. 17,788 accepted hops. Mean 1,111.8 per family. The report line is 1,026. Every family is above it |
 
-The three hash files were on this repo before each submit. Eight at 00:06, thirty-two at 02:30, sixteen at 04:00.
+The three hash files were on this repo before each submit. Eight rows fixed 00:06:08Z and on origin at 00:07:21Z, commit 430e905. Thirty-two rows fixed 02:30:01Z and on origin at 02:30:02Z, commit 180529c. Sixteen rows fixed 04:00:04Z and on origin at 04:00:04Z, commit abb8ac5.
 
 Unaccepts are virtual-chain reorgs. The coordinator steps back and resubmits. The counts were 3 at the eight-family open, 12,303 across the load, and 2,120 across the sixteen. None of them became a family drop.

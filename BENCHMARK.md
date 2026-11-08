@@ -37,6 +37,8 @@ If a machine is not logged in by that time, the run does not start. Do not pick 
 
 Call git by its full path. Keep its output, errors included. Empty output is a failed read. It is not zero hashes. Read once more with the same path. If that read fails too, stop. No hash file, no send.
 
+A hash file has two times. Fixed is the local write. On origin is the commit time of the commit that put the rows on GitHub. After that push succeeds, the same runner reads the time from origin and writes it into the file, then pushes that one line. The runner does not invent the time. A file with rows and no On origin line is not proof the push happened.
+
 ## Schedule rows
 
 A schedule may put two rows on the same clock only when one of them is turned off before that clock opens. The gate writes the SKIP file in the gap, after the step that decides and before the next step opens. On this night the early ramp shares the 8-family clock. It runs only when the 4-family step does not hold the line. The later ramp runs only when the 8-family step runs. A future config does not add a third row on a clock that is already taken.
@@ -45,10 +47,12 @@ A schedule may put two rows on the same clock only when one of them is turned of
 
 Counts only in the repo. No key, seed, txid, covenant id, address, host, or port. The hash file holds the sha256 of the lowercase hex covenant id. The id stays off the repo.
 
-Mini's count files are `counts/mini/FIRST.md`, `counts/mini/LOAD.md`, and `counts/mini/SIXTEEN.md`. Mini's runner publishes each file at its count-off, with git called by the full path it resolved at the start. The desk does not write that folder. The chat does not publish it.
+Mini's count files are `counts/mini/FIRST.md`, `counts/mini/LOAD.md`, and `counts/mini/SIXTEEN.md`. Mini's runner publishes each file at its count-off, with git called by the full path it resolved at the start. The desk does not write that folder.
+
+The desk counts too. Previous counted storms already counted on the sending machine. The desk's files are `counts/desk/FIRST.md`, `counts/desk/LOAD.md`, and `counts/desk/SIXTEEN.md`, the same three windows. The desk runner publishes each file at its window end, the same git rule. Mini does not write that folder. The chat does not publish either folder.
 
 The line of 1,026 hops per family over 900 seconds is reported. It does not stop a step. The 8-family step is the one that waits on the 4-family step holding that line.
 
 ## Files the next storm keeps
 
-README, DISCLAIMER, WHY, the two root pastes, GO.md, this page, `plan/`, `hashes/`, `logs/`, `counts/mini/`. A missed window gets a WHAT-WENT-WRONG page in that storm's own repo.
+README, DISCLAIMER, WHY, the two root pastes, GO.md, this page, `plan/`, `hashes/`, `logs/`, `counts/mini/`, `counts/desk/`. A missed window gets a WHAT-WENT-WRONG page in that storm's own repo. Each hash file carries its On origin time.
