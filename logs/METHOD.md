@@ -4,7 +4,7 @@
 
 # Method, 8 Nov 2026 rehearsal
 
-Status at 04:00 UTC: the load recovery is done. Sixteen family hashes are on this repo. The sixteen runner is armed and waiting. Genesis is 04:10 UTC. The send is 04:15 to 04:30 UTC. This page is filled as each phase proves itself.
+Status at 04:10 UTC: all sixteen families are in. Preflight passed. The sender and the gate are up. The send waits for 04:15 UTC and ends at 04:30. This page is filled as each phase proves itself.
 
 The operator confirmed before sleep that the desk runner, the desk monitor, and the Mini runner were up.
 
@@ -58,7 +58,7 @@ A failed night is not given a new clock on the same night. That is how 7 Nov was
 | First send | 00:40–02:10 UTC | Opened 00:40:00 UTC. The 8-family step opened 01:40 and its gap opened 01:55. The later ramp opened 02:00. Ramp acceptance per family per second: 1.295, 1.345 (gain 3.9 percent), 1.315 (gain −2.2), 1.405 (gain 6.8), 1.340 (gain −4.6), 1.380 at offer 1.7. The printed gain on that last step is 3.0, and the gate counted it as under 3 percent. The printed tenth is rounded. Two lows in a row stopped the ramp at 02:05:53. Steps r7, r8, r9 and r10 stayed off. The window ended 02:10:00 UTC, reason=window. No family drop and no abort |
 | 4-family gate | 01:35 UTC | 01:35:03 UTC. Acceptance 1.300 per family per second. 900 of 900 seconds attempted. First submit at 0.01s. No fault. Clean. Early ramp skipped, so the 8-family step runs at 01:40. Steps f1, f2 and f4 each opened on their clock |
 | 32-family hashes, then load | before 02:55, send 02:55–03:40 | Recovery done 02:30:01 UTC, exit 0. Thirty-two hashes fixed 02:30:01 and on this repo. Genesis 02:48:55–02:49:16 UTC, thirty-two included. No drop. Preflight passed. Clock inside the gate. Miners off. Sender and the quiet load gate up at 02:49:21. Gate reports 32 families. The send opened 02:55:00 UTC, one step, offer 1.2, and ended 03:40:00 UTC, reason=window. The quiet gate turned off at 03:40:06. Accepted hops: 93,529 across 32 families. Per family, the low was 2,873, the high was 3,067, and the mean was 2,922.8 over 2,700 seconds, about 1.08 per second. The report line for that window is 3,078, which is 1.14 per second. The mean is under that line. The step was not stopped for it. The phase log has 12,303 unaccept lines. No family drop and no abort |
-| Sixteen hashes, then the step | before 04:15, send 04:15–04:30 | Load recovery done 04:00:03 UTC, exit 0. Sixteen hashes fixed 04:00:04 and on this repo, 16 rows. The runner armed 04:00:06, start 04:15, end 04:30. It is waiting. Nothing has been sent in this phase yet |
+| Sixteen hashes, then the step | before 04:15, send 04:15–04:30 | Load recovery done 04:00:03 UTC, exit 0. Sixteen hashes fixed 04:00:04 and on this repo, 16 rows. The runner armed 04:00:06, start 04:15, end 04:30. Genesis 04:09:56–04:10:05 UTC, sixteen included. No drop. Preflight passed. Clock inside the gate. Miners off. Sender and the quiet gate up at 04:10:10. Gate reports 16 families. The send waits for 04:15 |
 | Both counts written | after 04:45 UTC | |
 
 A row stays blank until the phase log shows it. A fault is written here with the time, the phase, the cause, and the fix the next rehearsal will use.
