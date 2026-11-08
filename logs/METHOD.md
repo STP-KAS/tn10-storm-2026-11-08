@@ -4,7 +4,7 @@
 
 # Method, 8 Nov 2026 rehearsal
 
-Status at 02:04 UTC: the later ramp is on its fifth step. The fourth step gained 6.8 percent, so the low-gain count is back to zero. This page is filled as each phase proves itself. A result number waits until the phase has ended.
+Status at 02:05 UTC: the later ramp is on its sixth step. The fifth step gained −4.6 percent. That is one gain under 3 percent. The ramp continues. This page is filled as each phase proves itself. A result number waits until the phase has ended.
 
 The operator confirmed before sleep that the desk runner, the desk monitor, and the Mini runner were up.
 
@@ -53,7 +53,7 @@ A failed night is not given a new clock on the same night. That is how 7 Nov was
 | Eight hashes on this repo | before 00:35 UTC | 00:06 UTC. Eight rows |
 | Genesis, eight families | 00:35 UTC | 00:34:56–00:35:01 UTC. Eight included. No family drop. Preflight passed. Clock inside the gate. Sender and gate up at 00:35:06. Miners off |
 | Counts on | 00:38 UTC | |
-| First send | 00:40–02:10 UTC | Opened 00:40:00 UTC. The 8-family step opened 01:40 and its gap opened 01:55. The later ramp opened 02:00. Ramp so far, acceptance per family per second: 1.295, then 1.345 (gain 3.9 percent), then 1.315 (gain −2.2 percent), then 1.405 at offer 1.5 (gain 6.8 percent). The low-gain count is back to zero. The fifth step opened at offer 1.6. No family drop, no abort, no sender exit. The ramp score waits until 02:10 |
+| First send | 00:40–02:10 UTC | Opened 00:40:00 UTC. The 8-family step opened 01:40 and its gap opened 01:55. The later ramp opened 02:00. Ramp acceptance per family per second: 1.295, 1.345 (gain 3.9 percent), 1.315 (gain −2.2), 1.405 (gain 6.8), 1.340 at offer 1.6 (gain −4.6 percent). One low gain. The sixth step opened at offer 1.7. No family drop, no abort, no sender exit. The ramp score waits until 02:10 |
 | 4-family gate | 01:35 UTC | 01:35:03 UTC. Acceptance 1.300 per family per second. 900 of 900 seconds attempted. First submit at 0.01s. No fault. Clean. Early ramp skipped, so the 8-family step runs at 01:40. Steps f1, f2 and f4 each opened on their clock |
 | 32-family hashes, then load | before 02:55, send 02:55–03:40 | |
 | Sixteen hashes, then the step | before 04:15, send 04:15–04:30 | |
