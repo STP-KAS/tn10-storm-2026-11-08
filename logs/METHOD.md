@@ -4,7 +4,7 @@
 
 # Method, 8 Nov 2026 rehearsal
 
-Status at 02:49 UTC: all thirty-two load families are in. Preflight passed. The sender and the gate are up. The load send waits for 02:55 UTC. This page is filled as each phase proves itself. A result number waits until the phase has ended.
+Status at 02:55 UTC: the load send is open. Thirty-two families, offer 1.2, one step through 03:40 UTC. The opening seconds logged many unaccepts from virtual-chain reorgs. The coordinator steps back and resubmits. No family drop and no abort. This page is filled as each phase proves itself. A result number waits until the phase has ended.
 
 The operator confirmed before sleep that the desk runner, the desk monitor, and the Mini runner were up.
 
@@ -44,6 +44,7 @@ A failed night is not given a new clock on the same night. That is how 7 Nov was
 - Check funding coins for every genesis the night will run, before the first genesis. A key that is used twice needs two coins. A key that is used three times needs three.
 - Leave the measured steps, the offer, and the abort line alone.
 - The ramp stop is two gains under 3 percent. The phase line prints the gain to one tenth, and that tenth is rounded. A printed 3.0 can still be under 3 percent. The stop on this night was that case, after a −4.6 percent step.
+- An unaccept is a virtual-chain reorg removing a hop. The coordinator steps that family back and resubmits. It is not by itself a family drop. The eight-family open had three. The thirty-two-family open had 149 in the first half-minute. Later months should expect the count to rise with the family count, and they should keep the sender running unless the phase log shows a drop or an abort.
 
 ## Proof, filled as it happens
 
@@ -56,7 +57,7 @@ A failed night is not given a new clock on the same night. That is how 7 Nov was
 | Counts on | 00:38 UTC | |
 | First send | 00:40–02:10 UTC | Opened 00:40:00 UTC. The 8-family step opened 01:40 and its gap opened 01:55. The later ramp opened 02:00. Ramp acceptance per family per second: 1.295, 1.345 (gain 3.9 percent), 1.315 (gain −2.2), 1.405 (gain 6.8), 1.340 (gain −4.6), 1.380 at offer 1.7. The printed gain on that last step is 3.0, and the gate counted it as under 3 percent. The printed tenth is rounded. Two lows in a row stopped the ramp at 02:05:53. Steps r7, r8, r9 and r10 stayed off. The window ended 02:10:00 UTC, reason=window. No family drop and no abort |
 | 4-family gate | 01:35 UTC | 01:35:03 UTC. Acceptance 1.300 per family per second. 900 of 900 seconds attempted. First submit at 0.01s. No fault. Clean. Early ramp skipped, so the 8-family step runs at 01:40. Steps f1, f2 and f4 each opened on their clock |
-| 32-family hashes, then load | before 02:55, send 02:55–03:40 | Recovery done 02:30:01 UTC, exit 0. Thirty-two hashes fixed 02:30:01 and on this repo. Genesis 02:48:55–02:49:16 UTC, thirty-two included. No drop. Preflight passed. Clock inside the gate. Miners off. Sender and the quiet load gate up at 02:49:21. Gate reports 32 families. The send waits for 02:55 |
+| 32-family hashes, then load | before 02:55, send 02:55–03:40 | Recovery done 02:30:01 UTC, exit 0. Thirty-two hashes fixed 02:30:01 and on this repo. Genesis 02:48:55–02:49:16 UTC, thirty-two included. No drop. Preflight passed. Clock inside the gate. Miners off. Sender and the quiet load gate up at 02:49:21. Gate reports 32 families. The send opened 02:55:00 UTC, one step, offer 1.2. In the first half-minute the phase log recorded 149 unaccepts. The same resync path as the three unaccepts at 00:40, across many more families. No family drop and no abort. The load score waits until 03:40 |
 | Sixteen hashes, then the step | before 04:15, send 04:15–04:30 | |
 | Both counts written | after 04:45 UTC | |
 
